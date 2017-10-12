@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <link rel="dns-prefetch" href="https://jianghuasheng.github.io">
+  <title>江华生的个人博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="江华生，江华生博客，江华生个人博客，个人博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="江华生的个人博客">
+<meta property="og:url" content="https://jianghuasheng.github.io/index.html">
+<meta property="og:site_name" content="江华生的个人博客">
+<meta property="og:description" content="江华生，江华生博客，江华生个人博客，个人博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="江华生的个人博客">
+<meta name="twitter:description" content="江华生，江华生博客，江华生个人博客，个人博客">
+  
+    <link rel="alternative" href="/atom.xml" title="江华生的个人博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="http://avatar.csdn.net/5/F/C/1_j_h_s.jpg">
+  
+  <link rel="stylesheet" type="text/css" href="/./main.2d7529.css">
+  <style type="text/css">
+  
+    #container.show {
+      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
+    }
+  </style>
+  
+
+  
+
+</head>
+
+<body>
+  <div id="container" q-class="show:isCtnShow">
+    <canvas id="anm-canvas" class="anm-canvas"></canvas>
+    <div class="left-col" q-class="show:isShow">
+      
+<div class="overlay" style="background: #4d4d4d"></div>
+<!-- 自定义样式 -->
+<style type="text/css">
+.left-col #header .profilepic {background: none;}
+.left-col #header .profilepic img{
+  transition: all 1s;
+  -moz-transition: all 1s;  /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari 和 Chrome */
+  -o-transition: all 1s;  /* Opera */
+}
+.left-col #header .profilepic img:hover{
+    transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg); /* IE 9 */
+    -webkit-transform: rotateY(360deg); /* Safari and Chrome */
+    box-shadow: 0px 0px 5px #888888;
+}
+</style>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			<img src="http://avatar.csdn.net/5/F/C/1_j_h_s.jpg" class="js-avatar">
+		</a>
+		<hgroup>
+		  <h1 class="header-author" style="margin: .4em 0;"><a href="/" style="color:#000000;font-weight:bold;text-shadow: 0 0 10px #4D4D4D;">江华生</a></h1>
+		</hgroup>
+		
+		<p class="header-subtitle" style="color:#000000;">一个不愿只做技术精湛的程序猿</p>
+		<p class="header-subtitle">To make the world a little differences！</p>
+		
+
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/tags/面试心得/">面试心得</a></li>
+	        
+				<li><a href="/tags/生活杂谈/">生活杂谈</a></li>
+	        
+				<li><a href="/tags/《JS高设第三版》/">JS高设第三版</a></li>
+	        
+				<li><a href="http://blog.csdn.net/j_h_s">CSDN博客</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+    		
+    			
+    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="https://github.com/jianghuasheng" title="github"><i class="icon-github"></i></a>
+		        
+					<a class="qq" target="_blank" href="tencent://Message/?Uin=820456340&websiteName=www.oicqzone.com&Menu=yes" title="qq"><i class="icon-qq"></i></a>
+		        
+					<a class="weixin" target="_blank" href="javascript:alert('欢迎加我的微信：J820456340');" title="weixin"><i class="icon-weixin"></i></a>
+		        
+					<a class="mail" target="_blank" href="mailto:jianghuasheng333@gmail.com" title="mail"><i class="icon-mail"></i></a>
+		        
+			</div>
+		</nav>
+	</header>		
+</div>
+
+    </div>
+    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
+      
+<nav id="mobile-nav">
+  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+	<div class="btnctn js-mobile-btnctn">
+  		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
+	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img src="http://avatar.csdn.net/5/F/C/1_j_h_s.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author js-header-author">江华生</h1>
+			</hgroup>
+			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>一个不愿只做技术精湛的程序猿<i class="icon icon-quo-right"></i></p>
+			
+			
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+			
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/jianghuasheng" title="github"><i class="icon-github"></i></a>
+			        
+						<a class="qq" target="_blank" href="tencent://Message/?Uin=820456340&websiteName=www.oicqzone.com&Menu=yes" title="qq"><i class="icon-qq"></i></a>
+			        
+						<a class="weixin" target="_blank" href="javascript:alert('欢迎加我的微信：J820456340');" title="weixin"><i class="icon-weixin"></i></a>
+			        
+						<a class="mail" target="_blank" href="mailto:jianghuasheng333@gmail.com" title="mail"><i class="icon-mail"></i></a>
+			        
+				</div>
+			</nav>
+
+			<nav class="header-menu js-header-menu">
+				<ul style="width: 70%">
+				
+				
+					<li style="width: 20%"><a href="/">主页</a></li>
+		        
+					<li style="width: 20%"><a href="/tags/面试心得/">面试心得</a></li>
+		        
+					<li style="width: 20%"><a href="/tags/生活杂谈/">生活杂谈</a></li>
+		        
+					<li style="width: 20%"><a href="/tags/《JS高设第三版》/">JS高设第三版</a></li>
+		        
+					<li style="width: 20%"><a href="http://blog.csdn.net/j_h_s">CSDN博客</a></li>
+		        
+				</ul>
+			</nav>
+		</header>				
+	</div>
+	<div class="mobile-mask" style="display:none" q-show="isShow"></div>
+</nav>
+
+      <div id="wrapper" class="body-wrap">
+        <div class="menu-l">
+          <div class="canvas-wrap">
+            <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
+          </div>
+          <div id="js-content" class="content-ll">
+            
+  
+    <article id="post-自己动手搭建短网址服务器" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/12/自己动手搭建短网址服务器/">自己动手搭建短网址服务器</a>
+    </h1>
+  
+
+        
+        <a href="/2017/10/12/自己动手搭建短网址服务器/" class="archive-article-date">
+  	<time datetime="2017-10-12T12:54:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-12</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="自己动手搭建短网址服务器"><a href="#自己动手搭建短网址服务器" class="headerlink" title="自己动手搭建短网址服务器"></a>自己动手搭建短网址服务器</h1><blockquote>
+<p>前段时间小博主在公司工作的时候发现有个项目经常会用到短网址服务，收集了下资料，写了下开发流程就开始弄了，然后就在公司的服务器上搭建了一个简单的短网址服务，用到现在基本也没出什么问题，具体的开发和搭建流程如下：</p>
+</blockquote>
+<h2 id="前提条件："><a href="#前提条件：" class="headerlink" title="前提条件："></a>前提条件：</h2><ol>
+<li>Linux服务器（Centos系统）</li>
+<li>PHP运行环境（Nginx环境）</li>
+<li>Mysql数据库</li>
+</ol>
+<h2 id="开发流程："><a href="#开发流程：" class="headerlink" title="开发流程："></a>开发流程：</h2><h3 id="一、简单的功能分析"><a href="#一、简单的功能分析" class="headerlink" title="一、简单的功能分析"></a>一、简单的功能分析</h3><h4 id="通过调研发现，该功能需求主要由以下几个组成："><a href="#通过调研发现，该功能需求主要由以下几个组成：" class="headerlink" title="通过调研发现，该功能需求主要由以下几个组成："></a>通过调研发现，该功能需求主要由以下几个组成：</h4><ol>
+<li>把长链接转换成短链接的功能模块</li>
+<li>把短链接还原成长链接的功能模块</li>
+<li>统计记录短网址转换长网址的日志</li>
+<li>线上部署</li>
+</ol>
+<h3 id="二、部分核心代码"><a href="#二、部分核心代码" class="headerlink" title="二、部分核心代码"></a>二、部分核心代码</h3><blockquote>
+<p>文件结构主要有三个：<br></p>
+</blockquote>
+<p><img src="http://on225liw3.bkt.clouddn.com/shortUrl_mulu.png" alt=""><br></p>
+<blockquote>
+<p>a、<strong>build.php</strong> (生成短链接功能并且存储到数据库里)；<br><br>b、<strong>db.php</strong> (数据库连接配置)<br><br>c、<strong>index.php</strong> (短链接还原长链接的接口);</p>
+</blockquote>
+<h4 id="1-长链接生成短链接的功能"><a href="#1-长链接生成短链接的功能" class="headerlink" title="1. 长链接生成短链接的功能"></a>1. 长链接生成短链接的功能</h4><blockquote>
+<p>这里的核心代码主要是通过接受用户输入的长链接的值，然后再通过简单的判断是否存在，如果存在该长链接记录则直接返回已经生成的那个短链接。如果不存在转换记录，通过简单的算法生成不重复的6位字符串来标识该长链接,再把标志码传到数据库记录转换记录。</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/jianghuasheng/shortUrl/blob/master/build.php" title="源码地址" target="_blank" rel="external">长链接生成短链接的功能源码地址</a></li>
+</ul>
+<h4 id="2-短链接还原长链接的功能"><a href="#2-短链接还原长链接的功能" class="headerlink" title="2. 短链接还原长链接的功能"></a>2. 短链接还原长链接的功能</h4><blockquote>
+<p>该模块主要是通过对接收用户传过来的短网址后面的6位标志码来去查找数据库里面存在的长链接记录，同时记录用户的访问日志等。</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/jianghuasheng/shortUrl/blob/master/index.php" title="源码地址" target="_blank" rel="external">短链接还原长链接的功能源码地址</a></li>
+</ul>
+<h3 id="三、线上部署"><a href="#三、线上部署" class="headerlink" title="三、线上部署"></a>三、线上部署</h3><blockquote>
+<p>想直接配置类似这种‘<a href="http://s.jianghuasheng.cn/Gjhg4o’=&gt;域名+6位标识码就可以访问的，需要在nginx虚拟主机的配置文件那里配置。主要是在配置文件里加上重定向的配置，如下（注意：这里的是Nginx的环境配置，Apache的请前往百度）：" target="_blank" rel="external">http://s.jianghuasheng.cn/Gjhg4o’=&gt;域名+6位标识码就可以访问的，需要在nginx虚拟主机的配置文件那里配置。主要是在配置文件里加上重定向的配置，如下（注意：这里的是Nginx的环境配置，Apache的请前往百度）：</a></p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">location / &#123;</div><div class="line">   if (!-e $request_filename)&#123;</div><div class="line">     rewrite  ^(.*)$  /index.php?url=$1  last;   break;</div><div class="line">    &#125;</div><div class="line"> &#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>这里的意思主要是指默认把链接：‘<a href="http://s.jianghuasheng.cn/Gjhg4o’转换为‘http://s.jianghuasheng.cn/index.php?url=Gjhg4o’。" target="_blank" rel="external">http://s.jianghuasheng.cn/Gjhg4o’转换为‘http://s.jianghuasheng.cn/index.php?url=Gjhg4o’。</a><br><br>当然，配置成类似‘<a href="http://jianghuasheng.cn/s/Gjhg4o’的方法也是大概一直的，这里不一一介绍了。" target="_blank" rel="external">http://jianghuasheng.cn/s/Gjhg4o’的方法也是大概一直的，这里不一一介绍了。</a></p>
+</blockquote>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><blockquote>
+<p>实现这个功能并不是很难，但是有几点还是要注意下的：保证每次生成的标志码都是不一样的！这里通过网上找到的一个算法，通过对用户传过来的连接进行处理，得到不同的标志码。长链接不同，标志码生成就不一样了。同时，为了该功能模块的使用简便性，直接架构成接口的模式，直接直接调用接口就可以实现功能。</p>
+</blockquote>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/10/12/自己动手搭建短网址服务器/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-iframe无阻塞异步加载实例" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/26/iframe无阻塞异步加载实例/">iframe无阻塞异步加载实例</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/26/iframe无阻塞异步加载实例/" class="archive-article-date">
+  	<time datetime="2017-04-26T14:50:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="iframe无阻塞异步加载实例"><a href="#iframe无阻塞异步加载实例" class="headerlink" title="iframe无阻塞异步加载实例"></a>iframe无阻塞异步加载实例</h1><blockquote>
+<p>小博主今天在优化公司项目的一个门户网站的加载速度的时候遇到一个很大的问题，没错，就是关于在页面引入iframe。而且是在主页面中调用微博秀。最开始使用的直接是在页面引入iframe元素，这样不仅阻碍了页面的onload事件的加载，而且当iframe在加载的过程中，浏览器会标识正在加载，处于忙碌状态。对用户的体验超级不友好，而且是首页，所以就纠结了下关于iframe无阻塞异步加载技术。关于iframe的加载技术，可以看看这篇我转载的别人的文章：<a href="http://blog.csdn.net/J_H_S/article/details/70801039" title="iframe异步加载技术及性能" target="_blank" rel="external">iframe异步加载技术及性能</a></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>下面主要介绍的是上面文章中的第四种方法，iframe无阻塞异步加载，用来加载微博秀的应用实例。线上的实例地址为：<a href="http://gdmm110.cn" title="茂名市公安局" target="_blank" rel="external">茂名市公安局</a></p>
+</blockquote>
+<p><strong>废话少说，我先直接上代码^^</strong></p>
+<pre><code class="javascript"><span class="comment">//iframe异步无阻塞加载</span>
+<span class="function"><span class="keyword">function</span> <span class="title">iframeWeiboData</span>(<span class="params">data</span>) </span>{
+   <span class="keyword">var</span> iframe = <span class="built_in">document</span>.getElementById(<span class="string">'iframeWeiboId'</span>);
+       doc = <span class="built_in">document</span>.getElementById(<span class="string">'iframeWeiboId'</span>).contentWindow.document;
+   doc.open().write(data);
+}
+(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+    <span class="keyword">var</span> d = <span class="built_in">document</span>.getElementById(<span class="string">"weibo_ad_weibo"</span>);
+    <span class="keyword">var</span> iframe = d.appendChild(<span class="built_in">document</span>.createElement(<span class="string">'iframe'</span>)),
+        doc = iframe.contentWindow.document;
+    iframe.scrolling=<span class="string">"no"</span>;
+    iframe.id=<span class="string">"iframeWeiboId"</span>;
+    iframe.style.cssText =<span class="string">"width:100%;height:407px;border:none;"</span>;
+    doc.open().write(<span class="string">'&lt;script&gt;function showWeiBo(data) {window.parent.iframeWeiboData(data);};&lt;\/script&gt;&lt;body id="weiboBox333" onload="'</span>+<span class="string">'var d = document;d.getElementsByTagName(\'head\')[0].'</span>+<span class="string">'appendChild(document.createElement(\'script\')).src'</span>+<span class="string">'=\'\http://gdmm110.cn:88\/Home\/CommonApi\/getWeiboData\'"&gt;&lt;img id="weiboimg333" src="http://gdmm110.cn:88\/Public\/Home\/images\/weibopic.jpg" style="display:block;margin: 0px auto;margin-top: 45px;"&gt; &lt;p id="loadingtext333" style="font-size: 18px;line-height: 45px;width: 100%;text-align: center;color:#B67655;"&gt;平安茂名微博加载中...&lt;/p&gt;'</span>);
+    doc.close();
+})(<span class="built_in">document</span>);
+</code></pre>
+<p>我先解析下这段代码：首先先动态创建一个iframe，然后设置他的属性（不设置src）。再往他的contentWindow里面添加onload事件，在里面动态创建head异步加载iframe的地址，这里就相当于jsonp原理一样了。当时，这样个iframe既不在onload之前加载，而且还不会阻塞主页面的加载。head里面的那个script的地址是经过处理的，我是直接通过后端处理，把微博秀的页面压缩，再以一个方法返回来给页面，标准的jsonp操作。然后就直接调用方法把iframe里面的html全部换掉。整个过程大概就这样子。其实我觉得这里运用后端的知识来配合解决有点不妥，所以，大家有什么好的建议可以共享下。</p>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/26/iframe无阻塞异步加载实例/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-阿里2017前端工程师实习生笔试题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/24/阿里2017前端工程师实习生笔试题/">阿里2017前端工程师实习生笔试题</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/24/阿里2017前端工程师实习生笔试题/" class="archive-article-date">
+  	<time datetime="2017-04-24T14:18:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-24</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="阿里2017前端工程师实习生笔试题总结"><a href="#阿里2017前端工程师实习生笔试题总结" class="headerlink" title="阿里2017前端工程师实习生笔试题总结"></a>阿里2017前端工程师实习生笔试题总结</h1><blockquote>
+<p>小博主于今天（2017-04-24）晚上19点的时候笔试了阿里2017前端工程师实习生笔试的编程题目。第二次写关于阿里笔试的总结了，上一次是内推的时候（传送门：<a href="http://www.jianghuasheng.cn/2017/03/19/2018%E5%B9%B4%E6%98%A5%E5%AD%A3%E9%98%BF%E9%87%8C%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%AE%9E%E4%B9%A0%E5%B2%97%E5%9C%A8%E7%BA%BF%E6%B5%8B%E8%AF%84%E7%BC%96%E7%A8%8B%E9%A2%98/" title="2018年春季阿里前端工程师实习岗在线测评编程题总结" target="_blank" rel="external">2018年春季阿里前端工程师实习岗在线测评编程题总结</a>），那时候只有一道编程题，但是直接给kill掉了。不过也好，能有机会再次考验下自己。</p>
+<p>好吧，这次也基本是一点准备都没有。基本都是用工作或者平时的积累来答的。而且太急了，18点20才从公司回学校。直接打了个饭就回宿舍都已经19点多了，打开电脑直接上了。答题的时候一直看着我的饭…^^—</p>
+</blockquote>
+<h2 id="大家关注的应该还是考了什么题吧"><a href="#大家关注的应该还是考了什么题吧" class="headerlink" title="大家关注的应该还是考了什么题吧^^"></a>大家关注的应该还是考了什么题吧^^</h2><blockquote>
+<p>这次题型也很大众化，分为以下三种：</p>
+</blockquote>
+<ul>
+<li><h3 id="1-10：选择题"><a href="#1-10：选择题" class="headerlink" title="1~10：选择题"></a>1~10：选择题</h3></li>
+</ul>
+<blockquote>
+<p>选择题主要考察了些比较新颖的前端技术，例如websocket、ES6和一些通讯协议原理等等的题。（我居然忘记截图了^^）<br>都是不定项的选择题哟。</p>
+</blockquote>
+<ul>
+<li><h3 id="11、12：编程题"><a href="#11、12：编程题" class="headerlink" title="11、12：编程题"></a>11、12：编程题</h3></li>
+</ul>
+<blockquote>
+<p>编程题主要是根据要求来写部分实现的js。这里可以用本地的IDE哟。</p>
+</blockquote>
+<ol>
+<li>第一题主要是过滤和替换特定的字符串的功能实现。功能上算是实现了吧，但是很多代码是重复的（解答的代码如下），还有很多地方需要优化。这里主要是写第二个的实现哈，因为那时没时间，直接没做。^^</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> transformMsg = <span class="function"><span class="keyword">function</span>(<span class="params">msg, keyword</span>)</span>&#123;</div><div class="line">	<span class="comment">//初始化</span></div><div class="line">	<span class="keyword">var</span> newMsg = <span class="string">''</span>;</div><div class="line">	<span class="comment">// 没有定义关键字</span></div><div class="line">     	<span class="keyword">if</span>(keyword == <span class="string">''</span>)&#123;</div><div class="line">     		<span class="comment">//判断msg中是否含有@</span></div><div class="line">     		<span class="keyword">if</span>(msg.indexOf(<span class="string">"@"</span>) &gt; <span class="number">-1</span>)&#123;</div><div class="line">     			<span class="comment">//截取msg中除了@的其他字符</span></div><div class="line">			<span class="keyword">var</span> nickname = msg.substr(msg.length<span class="number">-1</span>);</div><div class="line">			<span class="comment">// 替换特定字符串</span></div><div class="line">			newMsg = msg.replace(<span class="string">'@'</span>, <span class="string">"&lt;a href='/profile/"</span>+nickname+<span class="string">"' target='_blank'&gt;"</span>);</div><div class="line">			newMsg = newMsg+<span class="string">"&lt;/a&gt;"</span>;</div><div class="line">			<span class="keyword">return</span> newMsg;</div><div class="line">		&#125;<span class="keyword">else</span>&#123;</div><div class="line">			<span class="keyword">return</span> msg;</div><div class="line">		&#125;</div><div class="line">     	&#125;<span class="keyword">else</span>&#123;</div><div class="line">     		<span class="comment">//判断msg中是否含有@</span></div><div class="line">     		<span class="keyword">if</span>(msg.indexOf(<span class="string">"@"</span>) &gt; <span class="number">-1</span>)&#123;</div><div class="line">     			<span class="comment">//截取msg中除了@的其他字符</span></div><div class="line">			<span class="keyword">var</span> nickname = msg.substr(msg.length<span class="number">-1</span>);</div><div class="line">			<span class="comment">// 替换特定字符串</span></div><div class="line">			newMsg = msg.replace(<span class="string">'@'</span>, <span class="string">"&lt;a href='/profile/"</span>+nickname+<span class="string">"' target='_blank'&gt;"</span>);</div><div class="line">			newMsg = newMsg+<span class="string">"&lt;/a&gt;"</span>;</div><div class="line"></div><div class="line">			<span class="comment">//判断是否含有关键字</span></div><div class="line">			<span class="keyword">if</span>(newMsg.indexOf(keyword) &gt; <span class="number">-1</span>)&#123;</div><div class="line">				newMsg = newMsg.replace(keyword, <span class="string">"&lt;em class='highlight'&gt;"</span>+keyword+<span class="string">"&lt;/em&gt;"</span>);</div><div class="line">			&#125;<span class="keyword">else</span>&#123;</div><div class="line">				<span class="keyword">return</span> newMsg;</div><div class="line">			&#125;</div><div class="line">		&#125;<span class="keyword">else</span>&#123;</div><div class="line">			<span class="keyword">return</span> msg;</div><div class="line">		&#125;</div><div class="line">     	&#125;</div><div class="line"> 	&#125;</div></pre></td></tr></table></figure>
+<ol>
+<li>第二题的内容喔复制下来了！好吧，是因为我当时没做，想自己再做做。下面是题目和我的实现方法：</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//题目：写一个十进制（整数）字符串至二进制字符串的转码函数，能够保证以下Case的正确处理。请完善your code here部分</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">decimalToBinary</span> (<span class="params">decimalStr</span>) </span>&#123;</div><div class="line">   <span class="comment">// your code here</span></div><div class="line">   <span class="keyword">return</span> binaryStr;</div><div class="line">&#125;		</div><div class="line">decimalToBinary(<span class="string">'50'</span>)<span class="comment">// return '110010'</span></div><div class="line">decimalToBinary(<span class="string">'5050120'</span>) <span class="comment">// return '10011010000111100001000'</span></div><div class="line">decimalToBinary(<span class="string">'102030102123412343'</span>) <span class="comment">// return '101101010011110111101011001011001011101100111101101110111'</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>其实这个不难，就是当时傻傻地想看看最后一题，所以就忽略了^^。然后最后一题还不会…<br>通过分析，主要是有两个判断，和利用递归循环来转码。第一先是判断是否那个十进制已经小于或等于0，是的话直接输出binaryStr，不是的话就进行第一个判断，判断递归的数字除2是否有余数，有的直接在binaryStr字符串前面拼接上1，同时递归的decimalStr去掉小数部分。能整除2的话直接在binaryStr的前面拼接0，decimalStr除于2继续循环递归。下面演示代码：</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">decimalToBinary</span> (<span class="params">decimalStr</span>) </span>&#123;</div><div class="line">	<span class="comment">// 定义空字符串</span></div><div class="line">	<span class="keyword">var</span> binaryStr = <span class="string">''</span>;</div><div class="line">	<span class="keyword">do</span>&#123;</div><div class="line">		<span class="comment">//判断是否整除(整除，则二进制位为0；否则为1，且去掉小数部分)</span></div><div class="line">		<span class="keyword">if</span>(decimalStr%<span class="number">2</span> == <span class="string">'1'</span>)&#123;</div><div class="line">			decimalStr=<span class="built_in">parseInt</span>(decimalStr/<span class="number">2</span>);</div><div class="line">			<span class="comment">//直接拼接字符串</span></div><div class="line">			binaryStr = <span class="string">"1"</span>+binaryStr;</div><div class="line">		&#125;<span class="keyword">else</span>&#123;</div><div class="line">			decimalStr = decimalStr/<span class="number">2</span>;</div><div class="line">			binaryStr = <span class="string">"0"</span>+binaryStr;</div><div class="line">		&#125;</div><div class="line">	&#125;<span class="keyword">while</span>(decimalStr &gt; <span class="number">0</span>);</div><div class="line">	<span class="keyword">return</span> binaryStr;</div><div class="line">&#125;</div><div class="line">		</div><div class="line">decimalToBinary(<span class="string">'50'</span>)<span class="comment">// return '110010'</span></div><div class="line">decimalToBinary(<span class="string">'5050120'</span>) <span class="comment">// return '10011010000111100001000'</span></div><div class="line">decimalToBinary(<span class="string">'102030102123412343'</span>) <span class="comment">// return '101101010011110111101011001011001011101100111101101110000'</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>本来想用递归方法来实现的，但是代码只能写在decimalToBinary方法里面，又不好在外面定义binaryStr，所以就直接用了do while循环，功能上能实现。</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>这里网上还有一种比较简单的办法，就是把一个 Number 对象转换为一个字符串，并返回结果。就是toString()的用法：<br>toString（）语法：<br>NumberObject.toString(radix);<br>其中，radix为可选。规定表示数字的基数，使 2 ~ 36 之间的整数。若省略该参数，则使用基数 10。但是要注意，如果该参数是 10 以外的其他值，则 ECMAScript 标准允许实现返回任意值。<br>parseInt(num,8);   //八进制转十进制<br>parseInt(num,16);   //十六进制转十进制<br>parseInt(num).toString(8)  //十进制转八进制<br>parseInt(num).toString(16)   //十进制转十六进制<br>parseInt(num,2).toString(8)   //二进制转八进制<br>parseInt(num,2).toString(16)  //二进制转十六进制<br>parseInt(num,8).toString(2)   //八进制转二进制<br>parseInt(num,8).toString(16)  //八进制转十六进制<br>parseInt(num,16).toString(2)  //十六进制转二进制<br>parseInt(num,16).toString(8)  //十六进制转八进制</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">dec2bin</span>(<span class="params">num</span>)</span>&#123;</div><div class="line">    <span class="keyword">if</span>(<span class="built_in">isNaN</span>(num))<span class="keyword">return</span>;</div><div class="line">    <span class="built_in">console</span>.log(<span class="built_in">parseInt</span>(num,<span class="number">10</span>).toString(<span class="number">2</span>));</div><div class="line">&#125;</div><div class="line">dec2bin(<span class="string">'50'</span>)<span class="comment">// return '110010'</span></div><div class="line">dec2bin(<span class="string">'5050120'</span>) <span class="comment">// return '10011010000111100001000'</span></div><div class="line">dec2bin(<span class="string">'102030102123412343'</span>) <span class="comment">// return '101101010011110111101011001011001011101100111101101110000'</span></div></pre></td></tr></table></figure>
+<p><strong><em>注：这里还有一个考点就是js处理数字时的溢出处理。js处理数字时不能超过16位，如果超出16都是用0替代。所以最后一个案例18位的情况出错了。</em></strong></p>
+<blockquote>
+<p>这种情况网上的解决方案基本没有，我想主要是想通过对传入的数字的位数进行位数判断，超过16则进行位数分割，例如传入的是17位数的，传入的数字先转化为二进制，再截取16位之后的值的，再转化为二级制，两个再相与。具体的代码再仔细考虑下，择日提交上来哈。</p>
+</blockquote>
+<ul>
+<li><h3 id="13：简答题"><a href="#13：简答题" class="headerlink" title="13：简答题"></a>13：简答题</h3><blockquote>
+<p>最后一道题最好是简单题，是关于webscoket的做一个聊天室问题。关键是对整一个协议、功能实现等的考察。小博主基本没用过他来开发项目(基本都是用ajax轮询来解决平时的通讯，而且webscoket用php来做后台很难实现，所以一直能去深入了解^^.等有空了解了nodejs再好好品味下这个功能)，所以基本没答。^^</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><blockquote>
+<p>这次感觉没有第一次那么紧张了，但是却没有上次那么多时间来思考，因为最近确实有点忙。</p>
+</blockquote>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/24/阿里2017前端工程师实习生笔试题/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-数组迭代器方法总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/23/数组迭代器方法总结/">数组迭代器方法总结</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/23/数组迭代器方法总结/" class="archive-article-date">
+  	<time datetime="2017-04-23T12:37:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-23</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="数组迭代器方法总结"><a href="#数组迭代器方法总结" class="headerlink" title="数组迭代器方法总结"></a>数组迭代器方法总结</h1><blockquote>
+<p>数组迭代器方法，对数组中的每个元素应用一个函数，可以返回一个值、一组值或者一个新数组。主要分为以下两类：</p>
+</blockquote>
+<h2 id="一、不生成新数组的迭代器方法"><a href="#一、不生成新数组的迭代器方法" class="headerlink" title="一、不生成新数组的迭代器方法"></a>一、不生成新数组的迭代器方法</h2><blockquote>
+<p>该类的特点是不产生任何新的数组，要么对数组的每个元素执行某种操作，要么返回一个值。主要有forEach()和every()方法。</p>
+</blockquote>
+<ul>
+<li><strong>forEach()方法</strong><blockquote>
+<p>forEach()接收一个函数作为参数，对数组的每个元素使用该函数。</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">square</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">	<span class="built_in">console</span>.log(num,num*num);</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> nums = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</div><div class="line">nums.forEach(square);</div><div class="line"><span class="comment">//结果</span></div><div class="line"><span class="comment">//&gt;1 1</span></div><div class="line"><span class="comment">//&gt;2 4</span></div><div class="line"><span class="comment">//&gt;3 9</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>every()方法</strong><blockquote>
+<p>every()接收一个返回值为布尔类型的函数，对数组的每个元素使用该函数。如果对于所有的元素，该函数均返回true，则该方法返回true。</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isEven</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">	<span class="keyword">return</span> num%<span class="number">2</span> == <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> nums = [<span class="number">2</span>,<span class="number">4</span>,<span class="number">6</span>];</div><div class="line">   <span class="keyword">var</span> ret = nums.every(isEven);</div><div class="line">   <span class="built_in">console</span>.log(ret);</div><div class="line">   <span class="comment">//结果</span></div><div class="line">   <span class="comment">//&gt;true</span></div><div class="line">   <span class="comment">//------------------------</span></div><div class="line">   <span class="keyword">var</span> nums = [<span class="number">2</span>,<span class="number">4</span>,<span class="number">6</span>];</div><div class="line">   <span class="keyword">var</span> ret = nums.every(isEven);</div><div class="line">   <span class="built_in">console</span>.log(ret);</div><div class="line">   <span class="comment">//&gt;false</span></div></pre></td></tr></table></figure>
+<p><strong>扩展：</strong></p>
+<blockquote>
+<p><strong>some()</strong>方法的用法和every()的方法一样，唯一区别就是：只要有一个元素使得该函数返回true，该方法就返回true。</p>
+<p><strong>reduce()</strong>方法接收一个函数，返回一个值。该方法会从一个累加值开始，不断对累加值和数组中的后续元素调用该函数，最后返回得到的累加值。（也可以将数组中元素连接成字符串）</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">tol,cur</span>) </span>&#123;</div><div class="line">	<span class="keyword">return</span> tol+cur;</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> nums = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</div><div class="line">   <span class="keyword">var</span> ret = nums.reduce(add);</div><div class="line">   <span class="built_in">console</span>.log(ret);</div><div class="line">   <span class="comment">//结果</span></div><div class="line">   <span class="comment">//&gt;6</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>reduceRight()</strong>方法用法和reduce()一样，但它是从右到左执行的。</p>
+</blockquote>
+<h2 id="二、生成新数组的迭代器方法"><a href="#二、生成新数组的迭代器方法" class="headerlink" title="二、生成新数组的迭代器方法"></a>二、生成新数组的迭代器方法</h2><blockquote>
+<p>有两个迭代器方法可以产生新数组：map()和filter();</p>
+</blockquote>
+<ul>
+<li><strong>map()方法</strong><blockquote>
+<p>map()方法和forEach()方法有点像，都是对数组的每个元素使用某个函数。但是map()返回一个新的数组，该数组的元素是对原有元素应用某个函数得到的结果。</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li><strong>filter()方法</strong><blockquote>
+<p>filter()和every()方法类似，传入一个返回值为bool类型的函数。和every()方法不同的是，当数组中的所有元素应用该函数，结构均为true时，该方法并不是和every一样返回true，而是返回一个新数组，该数组包含该函数后结果为true的元素。</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>当然，还可以使用filter()方法来<strong>过滤</strong>字符串数组。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">has</span>(<span class="params">str</span>) </span>&#123;</div><div class="line">	<span class="keyword">if</span>(str.indexOf(<span class="string">"o"</span>) &gt; <span class="number">-1</span>)&#123;</div><div class="line">		<span class="keyword">return</span> <span class="literal">true</span>;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> nums = [<span class="string">"ocean"</span>,<span class="string">"ocean3"</span>,<span class="string">"huazai"</span>];</div><div class="line">   <span class="keyword">var</span> ret = nums.filter(has);</div><div class="line">   <span class="built_in">console</span>.log(ret);</div><div class="line">   <span class="comment">//结果</span></div><div class="line">   <span class="comment">//&gt;["ocean", "ocean3"]</span></div></pre></td></tr></table></figure>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/23/数组迭代器方法总结/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-SSE-ajax实现无刷新服务器实时推送功能" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/28/SSE-ajax实现无刷新服务器实时推送功能/">SSE+ajax实现无刷新服务器实时推送功能</a>
+    </h1>
+  
+
+        
+        <a href="/2017/03/28/SSE-ajax实现无刷新服务器实时推送功能/" class="archive-article-date">
+  	<time datetime="2017-03-28T12:45:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="SSE-ajax实现无刷新服务器实时推送功能"><a href="#SSE-ajax实现无刷新服务器实时推送功能" class="headerlink" title="SSE+ajax实现无刷新服务器实时推送功能"></a>SSE+ajax实现无刷新服务器实时推送功能</h1><blockquote>
+<p>这个小功能主要是大家平时用的聊天软件的底层技术，通过页面无刷新和服务器长连接的技术无刷新地去推送最新的消息。对于实时推的技术，主要有HTML5中的EventSource和Websocket事件。之前做过一个订单提醒功能，最要是客户端运用ajax进行轮询，但是这个对服务器造成的压力很大，浪费内存资源等等。所以，这里探讨下EventSource的简单使用。<br>这里主要用到的技术有php的PDO、SSE（HTML5 服务器发送事件server-sent event，EventSource）、ajax和js框架zepto。下面主要介绍下实现的流程：</p>
+<p>这里是案例<strong>测试地址</strong>：<a href="http://exam.jianghuasheng.cn/sse/index.html" target="_blank">http://exam.jianghuasheng.cn/sse/index.html</a><br>这里是项目<strong>github地址</strong>：<a href="https://github.com/jianghuasheng/SSE" target="_blank">https://github.com/jianghuasheng/SSE</a></p>
+</blockquote>
+<h2 id="实现该功能主要分为二个主要部分："><a href="#实现该功能主要分为二个主要部分：" class="headerlink" title="实现该功能主要分为二个主要部分："></a>实现该功能主要分为二个主要部分：</h2><h3 id="一、无刷新取出聊天记录（SSE、EventSource）"><a href="#一、无刷新取出聊天记录（SSE、EventSource）" class="headerlink" title="一、无刷新取出聊天记录（SSE、EventSource）"></a>一、无刷新取出聊天记录（SSE、EventSource）</h3><blockquote>
+<p>取出聊天记录而且页面无刷新，以前第一想到的就是用ajax去轮询接口拉取最新的数据，但是在HTML5中出了服务器发送事件（server-sent event），就是允许网页自动获得来自服务器的更新。具体的介绍可以看下官方的文档<a href="http://www.w3school.com.cn/html5/html_5_serversentevents.asp" title="http://www.w3school.com.cn/html5/html_5_serversentevents.asp" target="_blank" rel="external">http://www.w3school.com.cn/html5/html_5_serversentevents.asp</a>。</p>
+</blockquote>
+<hr>
+<blockquote>
+<p><strong>这里主要看下他的原理和怎样去运用：</strong><br>W3C:HTML5 服务器发送事件（server-sent event）允许网页获得来自服务器的更新。<br>下面主要看下他的应用：</p>
+</blockquote>
+<ul>
+<li><strong>关键代码区</strong></li>
+</ul>
+<pre><code class="javascript"><span class="comment">// 检测是否支持EventSource事件</span>
+<span class="keyword">if</span>(<span class="keyword">typeof</span>(EventSource)!==<span class="string">"undefined"</span>){
+    <span class="comment">// SSE 服务器推事件</span>
+    <span class="keyword">var</span> es = <span class="keyword">new</span> EventSource(<span class="string">"index.php?a=getMsg"</span>);
+    <span class="comment">// console.log(es);</span>
+    <span class="comment">// 对返回的数据进行处理</span>
+    es.onmessage=<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>{
+          <span class="built_in">document</span>.getElementById(<span class="string">'ul'</span>).innerHTML=e.data;
+          <span class="comment">// 布局定位</span>
+          <span class="keyword">var</span> h = <span class="built_in">document</span>.getElementById(<span class="string">'ul'</span>).offsetHeight;
+          <span class="keyword">var</span> h2 = <span class="built_in">document</span>.body.offsetHeight;
+          <span class="comment">// 自动滚动到底部</span>
+          <span class="built_in">document</span>.getElementById(<span class="string">'con'</span>).scrollTop=h-h2;
+    };
+}<span class="keyword">else</span>{
+    alert(<span class="string">"亲，您的浏览器暂不支持该功能哟，请您换个浏览器试试哈^^"</span>);
+}
+</code></pre>
+<blockquote>
+<p>使用EventSource事件很简单，直接new一个EventSource对象就可以了，但是IE浏览器不支持该事件，所以要判断下不支持的的情况下的提醒或者处理，这里直接是提醒不支持^^，如果是IE浏览器可以直接用户原来的那个ajax轮询的模式。</p>
+</blockquote>
+<ul>
+<li><strong>下面是EventSource事件的一些属性截图:</strong><br><img src="http://on225liw3.bkt.clouddn.com/sse_sse.png" alt="EventSource属性"><br><img src="http://on225liw3.bkt.clouddn.com/sse_sse_heaer.png" alt="EventSource属性"><br><img src="http://on225liw3.bkt.clouddn.com/sse_sse_ajax.png" alt="EventSource属性"></li>
+<li><strong>再来看看用ajax提交的时候的情况：</strong><br><img src="http://on225liw3.bkt.clouddn.com/sse_ajax.png" alt="EventSource属性"><br><img src="http://on225liw3.bkt.clouddn.com/sse_ajax_heaer.png" alt="EventSource属性"></li>
+</ul>
+<blockquote>
+<p>细心的你可能会发现，其实ajax和EventSource事件差不多，就是EventSource事件会比较容易使用。当然，他们还是有区别的。EventSource事件，就是浏览器通过HTTP向服务器发送请求，服务器端拿出数据库中的数据，立即返回给客户端，客户端等待三秒后再次发出下一个请求。其实我个人理解功能上就是可以想成每隔三秒执行下ajax，但是却没有ajax那么复杂的流程。</p>
+</blockquote>
+<h3 id="三、后端处理代码-PDO"><a href="#三、后端处理代码-PDO" class="headerlink" title="三、后端处理代码(PDO)"></a>三、后端处理代码(PDO)</h3><blockquote>
+<p>这里后台主要运用了PDO对象来操作数据库。不懂得什么是PDO的可以看下这里<a href="http://blog.csdn.net/j_h_s/article/details/67644330" title="PHP5中PDO的简单使用" target="_blank" rel="external">http://blog.csdn.net/j_h_s/article/details/67644330</a>和官方文档<a href="http://www.php.net/manual/zh/pdo.connections.php" title="http://www.php.net/manual/zh/pdo.connections.php" target="_blank" rel="external">http://www.php.net/manual/zh/pdo.connections.php</a>。我直接上整个处理类的的代码吧^^</p>
+</blockquote>
+<pre><code class="php"><span class="comment">// +----------------------------------------------------------------------</span>
+<span class="comment">// | Copyright (c) 2017 http://www.jianghuasheng.cn All rights reserved.</span>
+<span class="comment">// +----------------------------------------------------------------------</span>
+<span class="comment">// | Author: 江华生 &lt;jianghuasheng333gmail.com&gt;  2017-03-27</span>
+<span class="comment">// +----------------------------------------------------------------------</span>
+<span class="comment">// | Desc: 本类为简单的SSE服务端的处理代码。参考了极客学院的课程代码。</span>
+<span class="comment">// +----------------------------------------------------------------------</span>
+
+<span class="class"><span class="keyword">class</span> <span class="title">SSEController</span></span>{
+
+    <span class="comment">//声明静态变量保存数据库的连接信息</span>
+    <span class="keyword">private</span> <span class="keyword">static</span> $pdo = <span class="keyword">NULL</span>;
+    <span class="comment">// 构造函数，这里保存连接数据库信息的变量值</span>
+    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">()</span></span>{
+        <span class="comment">// 判断是不是第一次链接数据库</span>
+        <span class="keyword">if</span> (is_null(<span class="keyword">self</span>::$pdo)) {
+            <span class="keyword">try</span> {
+                $pdo = <span class="keyword">new</span> PDO(<span class="string">'mysql:host=localhost;dbname=sse'</span>, <span class="string">'root'</span>, <span class="string">''</span>,<span class="keyword">array</span>(PDO::ATTR_PERSISTENT =&gt; <span class="keyword">true</span>));
+                <span class="comment">// 设置编码</span>
+                $pdo-&gt;query(<span class="string">'SET NAMES UTF8'</span>);
+                <span class="comment">// 保存到定义好的静态变量中</span>
+                <span class="keyword">self</span>::$pdo = $pdo;
+                <span class="comment">// var_dump($pdo);</span>
+            } <span class="keyword">catch</span> (PDOException $e) {
+                <span class="comment">// print "Error: " . $e-&gt;getMessage() . "&lt;br/&gt;";</span>
+                <span class="keyword">die</span>(<span class="string">"Content Error!"</span>);
+            }
+        }
+    }
+    <span class="comment">// 主页面</span>
+    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">index</span><span class="params">()</span></span>{
+        <span class="comment">// echo "index页面";</span>
+        <span class="keyword">include</span> <span class="string">"./index.html"</span>;
+    }
+
+    <span class="comment">// 获取数据库聊天记录</span>
+    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getMsg</span><span class="params">()</span></span>{
+        <span class="comment">// 表明是事件流</span>
+        header(<span class="string">'Content-Type:text/event-stream'</span>);
+        <span class="comment">// 不要缓存</span>
+        header(<span class="string">'Cache-Control:no-cache'</span>);
+        <span class="comment">// sql语句</span>
+        $sql = <span class="string">"SELECT * FROM msg ORDER BY id ASC"</span>;
+        <span class="comment">// 查询结果对象</span>
+        $result = <span class="keyword">self</span>::$pdo-&gt;query($sql);
+        <span class="comment">// 结果结构化</span>
+        $rows = $result-&gt;fetchALL(PDO::FETCH_ASSOC);
+        <span class="comment">// </span>
+        <span class="keyword">foreach</span> ($rows <span class="keyword">as</span> $k =&gt; $v) {
+            $name = $v[<span class="string">'name'</span>];
+            $msg = $v[<span class="string">'msg'</span>];
+            $time = $v[<span class="string">'time'</span>];
+            <span class="keyword">if</span> ($k == <span class="number">0</span>) {
+                <span class="keyword">echo</span> <span class="string">"data:&lt;li&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;{$name} : &lt;/b&gt;{$msg}&lt;i&gt; ({$time})&lt;/i&gt;&lt;/li&gt;"</span>;
+            }<span class="keyword">else</span>{
+                <span class="keyword">echo</span> <span class="string">"&lt;li&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;{$name} : &lt;/b&gt;{$msg}&lt;i&gt; ({$time})&lt;/i&gt;&lt;/li&gt;"</span>;
+            }
+
+        }
+        <span class="keyword">echo</span> <span class="string">"\n\n"</span>;
+
+        <span class="comment">//立即将数据返回给客户端 ，@：忽略错误</span>
+        @ob_flush();@flush();   
+    }
+
+    <span class="comment">// 新增聊天信息</span>
+    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">addMsg</span><span class="params">()</span>
+    </span>{
+        <span class="keyword">if</span> (<span class="keyword">isset</span>($_POST[<span class="string">'name'</span>]) &amp;&amp; <span class="keyword">isset</span>($_POST[<span class="string">'message'</span>])) {
+            $name = $_POST[<span class="string">'name'</span>];
+            $message = $_POST[<span class="string">'message'</span>];
+            <span class="comment">//判断是否为空</span>
+            <span class="keyword">if</span> (<span class="keyword">empty</span>($name) || <span class="keyword">empty</span>($message)) {
+                <span class="comment">// 不能为空</span>
+                $ret = <span class="keyword">array</span>(<span class="string">'code'</span> =&gt; <span class="number">401</span>,<span class="string">'msg'</span>=&gt;<span class="string">"亲，昵称或者聊天内容不可以为空哟！"</span>); 
+                <span class="keyword">echo</span> json_encode($ret);
+                <span class="keyword">exit</span>;
+            }<span class="keyword">else</span>{
+                $nowTime = date(<span class="string">'Y-m-d H:i:s'</span>,time());
+                <span class="comment">// 执行插入数据库操作</span>
+                $Sql = <span class="string">"INSERT INTO msg (name,time,msg) values ('"</span>.$name.<span class="string">"','"</span>.$nowTime.<span class="string">"','"</span>.$message.<span class="string">"');"</span>;
+                $reslut = <span class="keyword">self</span>::$pdo-&gt;exec($Sql);<span class="comment">//返回影响了多少行数据</span>
+                <span class="keyword">if</span> ($reslut) {
+                    <span class="comment">//非法传参</span>
+                    $ret = <span class="keyword">array</span>(<span class="string">'code'</span> =&gt; <span class="number">200</span>,<span class="string">'msg'</span>=&gt;<span class="string">"插入成功"</span>);  
+                    <span class="keyword">echo</span> json_encode($ret);
+                    <span class="keyword">exit</span>;
+                }<span class="keyword">else</span>{
+                    <span class="comment">//非法传参</span>
+                    $ret = <span class="keyword">array</span>(<span class="string">'code'</span> =&gt; <span class="number">401</span>,<span class="string">'msg'</span>=&gt;<span class="string">"401：亲，新增失败！亲您重试下..."</span>);  
+                    <span class="keyword">echo</span> json_encode($ret);
+                    <span class="keyword">exit</span>;
+                }
+            }
+        }<span class="keyword">else</span>{
+            <span class="comment">//非法传参</span>
+            $ret = <span class="keyword">array</span>(<span class="string">'code'</span> =&gt; <span class="number">400</span>,<span class="string">'msg'</span>=&gt;<span class="string">"非法传参"</span>);  
+            <span class="keyword">echo</span> json_encode($ret);
+            <span class="keyword">exit</span>;
+        }
+    }
+}
+
+$controller = <span class="keyword">new</span> SSEController;
+<span class="comment">// 在URL那里传参?a=来控制要执行类的方法，默认为index方法</span>
+<span class="comment">// 用法eg：?a=getMsg    执行类的getMsg方法</span>
+$action = <span class="keyword">isset</span>($_GET[<span class="string">'a'</span>]) ? $_GET[<span class="string">'a'</span>] : <span class="string">'index'</span>;
+$controller-&gt;$action();
+</code></pre>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><ul>
+<li>这个小功能比较简单，主要是对HTML 5 服务器发送事件EventSource的使用和原理的简单介绍以及php的PDO的简单使用。</li>
+<li>后台的php的代码架构参考了极客学院的课程的封装思想。觉得挺不错的，所以直接贴上去大家交流下。</li>
+<li>当然，这个功能还有很多小细节要去思考下的。例如以下几点:<ol>
+<li>怎样去兼容IE浏览器？其实就是用ajax轮询应该也可以吧。</li>
+<li>聊天输入框不能插入图片和表情包，嗯，这个得好好研究下^^。</li>
+<li>如何去艾特或者回复特定的人的设计等等。</li>
+</ol>
+</li>
+</ul>
+<p>嗯，就写这么多了，下次和大家一起学习下WebSockets的原理和使用^^。<br></p>
+<blockquote>
+<p>这里是案例<strong>测试地址</strong>：<a href="http://exam.jianghuasheng.cn/sse/index.html" target="_blank">http://exam.jianghuasheng.cn/sse/index.html</a><br>这里是项目<strong>github地址</strong>：<a href="https://github.com/jianghuasheng/SSE" target="_blank">https://github.com/jianghuasheng/SSE</a></p>
+</blockquote>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/03/28/SSE-ajax实现无刷新服务器实时推送功能/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-PHP模拟登录教务系统并获取数据" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/24/PHP模拟登录教务系统并获取数据/">PHP模拟登录教务系统并获取数据</a>
+    </h1>
+  
+
+        
+        <a href="/2017/03/24/PHP模拟登录教务系统并获取数据/" class="archive-article-date">
+  	<time datetime="2017-03-24T14:57:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-24</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="PHP模拟登录学校教务系统并获取数据"><a href="#PHP模拟登录学校教务系统并获取数据" class="headerlink" title="PHP模拟登录学校教务系统并获取数据"></a>PHP模拟登录学校教务系统并获取数据</h1><blockquote>
+<p>这个小功能主要的代码是当时创业校联圈（大概在2016-09月）的时候写的，当时这个功能模块没有真正上线运营，所以今天开源给大家，和大家聊聊其中的技术^^。<br>这里主要是运用了PHP中的一个CURL库。CURL是一个功能强大的PHP库，可以简单和有效地抓取网页并采集内容，设置cookie完成模拟登录网页。</p>
+</blockquote>
+<p><a href="http://exam.jianghuasheng.cn/course/index.html" target="_blank">这里是测试传送门（仅限<b style="color:red;">广东石油化工学院同学</b>哟）</a></p>
+<blockquote>
+<p>好了，以下主要介绍下实现的过程，有错误或者有更好的办法欢迎留言交流^^</p>
+</blockquote>
+<h2 id="这里主要分为两个比较关键点的步骤："><a href="#这里主要分为两个比较关键点的步骤：" class="headerlink" title="这里主要分为两个比较关键点的步骤："></a>这里主要分为两个比较关键点的步骤：</h2><h3 id="一、爬出登陆教务系统时要提交的数据"><a href="#一、爬出登陆教务系统时要提交的数据" class="headerlink" title="一、爬出登陆教务系统时要提交的数据"></a>一、爬出登陆教务系统时要提交的数据</h3><blockquote>
+<p>登陆教务系统的时候要输入学号和密码，但是这两肯定是不够的，如下图。所以这里用了Fiddler来抓提交的数据（不知道Fiddler的使用的同学可以百度下哈），然后就设置curl时要提交的数据来模拟登陆。（不知道curl的具体使用的同学可以看看这里<a href="http://blog.csdn.net/j_h_s/article/details/65698343" title="http://blog.csdn.net/j_h_s/article/details/65698343" target="_blank" rel="external">http://blog.csdn.net/j_h_s/article/details/65698343</a>）</p>
+</blockquote>
+<ul>
+<li><p><strong>分析登陆时要提交的数据</strong><br><img src="http://on225liw3.bkt.clouddn.com/course_login.png" alt="教务系统登陆"></p>
+</li>
+<li><p><strong>登陆时fiddler抓包的数据</strong><br><img src="http://on225liw3.bkt.clouddn.com/course_fiddler.png" alt="fiddler的数据"></p>
+</li>
+<li><p><strong>curl设置的数据</strong><br><img src="http://on225liw3.bkt.clouddn.com/course_curl.png" alt="curl设置的数据"></p>
+</li>
+<li><strong>登陆成功后台主页</strong><br><img src="http://on225liw3.bkt.clouddn.com/course_index.png" alt="登陆成功后台主页"></li>
+</ul>
+<h3 id="二、模拟登陆后抓取的数据处理"><a href="#二、模拟登陆后抓取的数据处理" class="headerlink" title="二、模拟登陆后抓取的数据处理"></a>二、模拟登陆后抓取的数据处理</h3><blockquote>
+<p>登陆成功后关键是怎样去爬我们需要排课或者成绩等信息呢？<br>通过分析，这个教务系统的后台主要是通过生成json数据存储课程等信息。所以我用curl_exec函数返回的页面的数据通过特定字符串来截取我们需要的信息。大概步骤如下图：</p>
+</blockquote>
+<ul>
+<li><p><strong>通过分析排课页面获得的数据</strong><br><img src="http://on225liw3.bkt.clouddn.com/course_paike.png" alt="通过分析排课页面获得的数据"></p>
+</li>
+<li><p><strong>接收接受返回的数据</strong><br><img src="http://on225liw3.bkt.clouddn.com/course_curl3.png" alt="接收接受返回的数据"><img src="http://on225liw3.bkt.clouddn.com/course_curl4.png" alt="登陆成功后台主页"></p>
+</li>
+<li><p><strong>特定字符串截取关键数据</strong></p>
+</li>
+<li><p><img src="http://on225liw3.bkt.clouddn.com/course_curl2.png" alt="特定字符串截取关键数据1"><br><img src="http://on225liw3.bkt.clouddn.com/course_curl5.png" alt="特定字符串截取关键数据2"></p>
+</li>
+<li><p><strong>到这就基本实现目的了，接下来就是简单的页面显示爬得的数据了，这里就不做介绍了，附上测试的结果图和地址^^</strong><br><img src="http://on225liw3.bkt.clouddn.com/course_test1.png" alt="测试结果1"><br><img src="http://on225liw3.bkt.clouddn.com/course_test2.png" alt="测试结果2"><br><a href="http://exam.jianghuasheng.cn/course/index.html" target="_blank">这里是测试传送门（仅限<b style="color:red;">广东石油化工学院同学</b>哟）</a></p>
+</li>
+</ul>
+<blockquote>
+<p><strong>后语：</strong> 当然，真正上线运营可能就起来并没有这么简单，例如我们这里是直接每次登录来获得用户的学号和密码，为了更便捷，可以用数据库来保存用户的信息或者绑定到其他账号，就好像微信那里一样。还有，就是当用户输入错误的学号或者密码怎么判断等等，这里只做简单的介绍，欢迎留言讨论^^!</p>
+</blockquote>
+<p><strong>最后附上测试地址和github地址</strong></p>
+<ul>
+<li><a href="http://exam.jianghuasheng.cn/course/index.html" title="http://exam.jianghuasheng.cn/course/index.html" target="_blank" rel="external">测试地址：http://exam.jianghuasheng.cn/course/index.html</a></li>
+<li><a href="https://github.com/jianghuasheng/php/tree/master/curl" title="https://github.com/jianghuasheng/php/tree/master/curl" target="_blank" rel="external">源码github</a></li>
+</ul>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/03/24/PHP模拟登录教务系统并获取数据/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-2018年春季阿里前端工程师实习岗在线测评编程题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/19/2018年春季阿里前端工程师实习岗在线测评编程题/">2018年春季阿里前端工程师实习岗在线测评编程题</a>
+    </h1>
+  
+
+        
+        <a href="/2017/03/19/2018年春季阿里前端工程师实习岗在线测评编程题/" class="archive-article-date">
+  	<time datetime="2017-03-19T00:56:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-19</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="2018年春季阿里前端工程师实习岗在线测评编程题总结"><a href="#2018年春季阿里前端工程师实习岗在线测评编程题总结" class="headerlink" title="2018年春季阿里前端工程师实习岗在线测评编程题总结"></a>2018年春季阿里前端工程师实习岗在线测评编程题总结</h1><blockquote>
+<p>小博主于昨天（2017-03-18）早上大概9点的时候在线测评了阿里2018年春季校园招聘前端工程师实习岗位的编程题目。算是小博主的第一次比较正式的在线编程了（把第一次给了她，哈），而且在这30min的时间内，有很多的感谢也想和大家分享下，所以今天写下这个小博客，多多交流。</p>
+</blockquote>
+<h2 id="首先，大家很关注的应该就是考了什么题吧"><a href="#首先，大家很关注的应该就是考了什么题吧" class="headerlink" title="首先，大家很关注的应该就是考了什么题吧^^"></a>首先，大家很关注的应该就是考了什么题吧^^</h2><p>没错，就是考了js的简单运用。下面是简单的题目要求介绍，具体的记不清楚了（居然忘了截屏！！）。</p>
+<blockquote>
+<p>在下面的样式中，当鼠标滚动的时候，box1以鼠标滚动2倍的速度运动，box2以鼠标滚动3倍的速度运动。大致效果如下图。</p>
+</blockquote>
+<p><img src="http://on225liw3.bkt.clouddn.com/alitest.gif" alt=""></p>
+<p><strong>原始代码是这样的</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line"> <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">style</span>=<span class="string">"height: 5000px"</span> <span class="attr">id</span>=<span class="string">"wrapper"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">" width: 300px; height: 100px; background:#000;"</span> <span class="attr">id</span>=<span class="string">"box1"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">" width: 300px; height: 100px; background:red;"</span> <span class="attr">id</span>=<span class="string">"box2"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"></div><div class="line">	<span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line"></div><div class="line">	</div><div class="line">	<span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>然后直接在她测试的页面阿里写js，当然，可使用本地IDE编程工具。所以当时我用了自己最熟悉的Sumline和谷歌来编程和测试。</p>
+<h2 id="接下来就是在这30min内的事咯"><a href="#接下来就是在这30min内的事咯" class="headerlink" title="接下来就是在这30min内的事咯"></a>接下来就是在这30min内的事咯</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;前5,6分钟把关键要用到的技术简单地设计了下和在网上搜索下看没有类似的功能，发现资料实现太少了。但是还是找到了个比较正式的监听鼠标滚动的方式。就是注册一个事件来监听，而且兼容IE和W3标准，因为和自己想的方式基本一样，所以二话不说就直接用了。<strong>（到这大概花了10min）</strong><br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;接下来就是设计和写监听执行的事件了。刚开始什么也没想，先用原生js获取了box1和box2的DOM对象，再获取了浏览器滚动的高度，再用console.log（e）来仔细看看监听事件都传了什么参数过来，发现除了滚动的距离，其他的参数对象基本没什么用。好吧，距离留距离吧，先让他动起来再来自己调调（这可能是受之前项目的影响，用效果来修改代码），然后就陷入了让他动起来的坑。<strong>（到这大概花了20min）</strong><br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;动起来，当时第一感就是用css3的animation，但是那些兼容性和规则那些要写很多呀！然后看了下题目，没有要求说不能用库，所以直接用了百度的Jquery CDN。就这样，成功用了Jquery里面的animation方法<strong>（到这大概用了25min了）</strong><br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;动起来之后呢？鼠标滚动的速度怎么获得？这才是关键。当时大致地想了下，肯定是要在animation那里传入移动的位置和时间的参数，而且得让他悬浮起来。所以直接穿了个动态的top参数进去，速度实在没办法解决！所以直接打算至直接按滚动距离比来模拟速度的快慢，但是由于时间快到了，所以直接弄了个变量进去。就这样滚动鼠标那两box1 and box2就跟着滚动，当时写的效果大致是这样了。<strong>（到这大概用了28min了）</strong><br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;看了下时间，还剩一两分钟！不能再纠结代码了。所以整理了下代码的格式，在注释那里添上了自己的思路和步骤（PS：经管有很多功能没有实现，但是把思路写下来，应该印象会好点吧^^）。就这样，把代码复制到答题区，看了下时间，还剩几秒，赶紧点保存和交卷。就这样，感觉这30min过得最快了。。。</p>
+<h2 id="不放弃的我"><a href="#不放弃的我" class="headerlink" title="不放弃的我^^"></a>不放弃的我^^</h2><blockquote>
+<p>虽然这30min做得啧啧，但是还是很想去实现下这个效果来证明下自己。所以，在下午好好设计了他的实现的过程。其中也发现很多难点也来和大家分享下。</p>
+</blockquote>
+<p><strong>贴上关键的代码</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div></pre></td><td class="code"><pre><div class="line">    <span class="built_in">window</span>.onload=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123; </div><div class="line"> 	<span class="comment">// 初始化</span></div><div class="line">	<span class="keyword">var</span> Y = <span class="built_in">document</span>.body.scrollTop;</div><div class="line">	<span class="comment">// 动态加入style</span></div><div class="line">	<span class="keyword">var</span> newstyle = <span class="built_in">document</span>.createElement(<span class="string">"style"</span>);</div><div class="line">	<span class="comment">// console.log(newstyle);</span></div><div class="line">	newstyle.setAttribute(<span class="string">"id"</span>, <span class="string">"addStyle"</span>);</div><div class="line">	<span class="comment">// document.body.appendChild(newstyle);</span></div><div class="line">	<span class="comment">// console.log(document.getElementsByTagName('head'));</span></div><div class="line">	<span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>].appendChild(newstyle);</div><div class="line">	</div><div class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'box1'</span>).style.position=<span class="string">"fixed"</span>;</div><div class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'box2'</span>).style.position=<span class="string">"fixed"</span>;</div><div class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'box2'</span>).style.top=<span class="string">"50px"</span>;</div><div class="line">	<span class="keyword">var</span> preY = <span class="number">0</span>;</div><div class="line">	<span class="comment">// console.log(Y);</span></div><div class="line">	<span class="comment">// 定义速度初始值</span></div><div class="line">	<span class="keyword">var</span> speed = <span class="number">100</span>;</div><div class="line"></div><div class="line">	<span class="keyword">var</span> scrollFunc=<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;</div><div class="line"><span class="meta">		'use strict'</span>;</div><div class="line">		e=e || <span class="built_in">window</span>.event;</div><div class="line">		<span class="comment">// console.log(e);</span></div><div class="line">		<span class="comment">// 清空动画</span></div><div class="line">		<span class="built_in">document</span>.getElementById(<span class="string">'box1'</span>).style.animation=<span class="string">""</span>;</div><div class="line">		<span class="built_in">document</span>.getElementById(<span class="string">'box2'</span>).style.animation=<span class="string">""</span>;</div><div class="line">		</div><div class="line">	    <span class="comment">// 定义本次滚动的距离，判断是上下滚动</span></div><div class="line">	    <span class="keyword">var</span> distance = e.deltaY;</div><div class="line">	    <span class="comment">// 用滚动距离来比拟速度</span></div><div class="line">	    <span class="keyword">var</span> speed2 = distance/speed;</div><div class="line">	    <span class="comment">// 或者当前滚动的高度</span></div><div class="line">	    <span class="keyword">var</span> curY = <span class="built_in">document</span>.body.scrollTop;</div><div class="line">	    <span class="keyword">var</span> newStyle2 = <span class="built_in">document</span>.getElementById(<span class="string">'addStyle'</span>);</div><div class="line">	    <span class="comment">// 向上滚动</span></div><div class="line">	    <span class="keyword">if</span> (distance &gt; <span class="number">0</span>) &#123;</div><div class="line">	    	<span class="comment">// console.log("向下滚动");</span></div><div class="line">	    	<span class="comment">// 传入动态滚动距离</span></div><div class="line">	    	newStyle2.innerHTML = <span class="string">'@-webkit-keyframes toDown&#123;0%   &#123;top:0px;&#125;50%   &#123;top:'</span>+distance+<span class="string">'px;&#125;100% &#123;top:0px;&#125;&#125;\n'</span>+ <span class="string">'@keyframes toDown &#123;0%   &#123;top:0px;&#125;50%   &#123;top:'</span>+distance+<span class="string">'px;&#125;100% &#123;top:0px;&#125;&#125;\n'</span>+<span class="string">'@-webkit-keyframes toDown2&#123;0%   &#123;top:50px;&#125;50%   &#123;top:'</span>+<span class="number">2</span>*distance+<span class="string">'px;&#125;100% &#123;top:50px;&#125;&#125;\n'</span>+ <span class="string">'@keyframes toDown2 &#123;0%   &#123;top:50px;&#125;50%   &#123;top:'</span>+<span class="number">2</span>*distance+<span class="string">'px;&#125;100% &#123;top:50px;&#125;&#125;\n'</span>;</div><div class="line"></div><div class="line">	    	<span class="built_in">document</span>.getElementById(<span class="string">'box1'</span>).style.animation=<span class="string">"toDown "</span>+speed2/<span class="number">2</span>+<span class="string">"s"</span>;</div><div class="line">	    	<span class="built_in">document</span>.getElementById(<span class="string">'box2'</span>).style.animation=<span class="string">"toDown2 "</span>+speed2/<span class="number">3</span>+<span class="string">"s"</span>;</div><div class="line">	    <span class="comment">// 向下滚动</span></div><div class="line">	    &#125;<span class="keyword">else</span>&#123;</div><div class="line">	    	<span class="comment">// console.log("向上滚动");</span></div><div class="line">	    	<span class="comment">// 传入动态滚动距离</span></div><div class="line">	    	newStyle2.innerHTML = <span class="string">'@-webkit-keyframes toDown&#123;0%   &#123;top:0px;&#125;50%   &#123;top:'</span>+(-distance)+<span class="string">'px;&#125;100% &#123;top:0px;&#125;&#125;\n'</span>+ <span class="string">'@keyframes toDown &#123;0%   &#123;top:0px;&#125;50%   &#123;top:'</span>+(-distance)+<span class="string">'px;&#125;100% &#123;top:0px;&#125;&#125;\n'</span>+<span class="string">'@-webkit-keyframes toDown2&#123;0%   &#123;top:50px;&#125;50%   &#123;top:'</span>+<span class="number">2</span>*(-distance)+<span class="string">'px;&#125;100% &#123;top:50px;&#125;&#125;\n'</span>+ <span class="string">'@keyframes toDown2 &#123;0%   &#123;top:50px;&#125;50%   &#123;top:'</span>+<span class="number">2</span>*(-distance)+<span class="string">'px;&#125;100% &#123;top:50px;&#125;&#125;\n'</span>;</div><div class="line"></div><div class="line">	    	<span class="built_in">document</span>.getElementById(<span class="string">'box1'</span>).style.animation=<span class="string">"toDown "</span>+(-speed2/<span class="number">2</span>)+<span class="string">"s"</span>;</div><div class="line">	    	;</div><div class="line">	    	<span class="built_in">document</span>.getElementById(<span class="string">'box2'</span>).style.animation=<span class="string">"toDown2 "</span>+(-speed2/<span class="number">3</span>)+<span class="string">"s"</span>;</div><div class="line">	    	;</div><div class="line">	    &#125;</div><div class="line">	&#125;</div><div class="line"> 	<span class="comment">// 注册监听鼠标滚动事件</span></div><div class="line">	<span class="keyword">if</span>(<span class="built_in">document</span>.addEventListener)&#123;</div><div class="line">		<span class="built_in">document</span>.addEventListener(<span class="string">'DOMMouseScroll'</span>,scrollFunc,<span class="literal">false</span>);</div><div class="line">	&#125;<span class="comment">//W3C</span></div><div class="line">	<span class="comment">//IE/Opera/Chrome</span></div><div class="line">	<span class="built_in">window</span>.onmousewheel=<span class="built_in">document</span>.onmousewheel=scrollFunc;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>效果大致就是下面这样<br><img src="http://on225liw3.bkt.clouddn.com/alitest.gif" alt=""></p>
+<p><strong>这里还有很多需要完善，例如</strong>：<br></p>
+<ul>
+<li>监听鼠标滚动事件会有问题，就是滚动一次会两次调用方法。</li>
+<li>每次滚动的距离基本都是固定的？那怎样去比拟速度的快慢？一开始想到的是用滚动开始、滚动过程中和滚动结束这三个机制，用滚动的总距离来比拟速度的。但时搜了下资料好像没有发现。难道只有touch才有ontouchstart,ontouch,ontouchend三事件机制？这里直接用的是每次滚动的距离来比拟速度的快慢。再动态传入滚动的高度作为两div移动的距离。但速度还是很不明显。希望大家有更好的办法分享下^^</li>
+</ul>
+<h2 id="反思和总结"><a href="#反思和总结" class="headerlink" title="反思和总结"></a>反思和总结</h2><ul>
+<li>受中国式教育太深，每每到考试都会有些紧张。发挥确实不好。</li>
+<li>很关键的是自己没有在知道要实现的效果后好好设计下整个架构，至少也应该弄个流程图来，把核心的代码简单写下（平时都有这习惯，这30min不知道想哪里去了）</li>
+<li>当然，最关键的还是自己的阅历太少了，前端技术的基础知识也很差，很多方法内置的参数都不了解</li>
+<li>做完这题真的有点思考人生了！以前做项目或者解决问题的思维可能不太适合。所以，虽然做的很糟，但是还是很有意义。至少知道自己哪里需要进步!^^</li>
+<li>好吧，就写这么多先。等遇到类似的案例再仔细想想这个。^^</li>
+</ul>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">面试心得</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/03/19/2018年春季阿里前端工程师实习岗在线测评编程题/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-Array类型" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/18/Array类型/">Array类型</a>
+    </h1>
+  
+
+        
+        <a href="/2017/03/18/Array类型/" class="archive-article-date">
+  	<time datetime="2017-03-18T09:14:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-18</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="数组类型"><a href="#数组类型" class="headerlink" title="数组类型"></a>数组类型</h1><h3 id="1-数组的创建与读取"><a href="#1-数组的创建与读取" class="headerlink" title="1. 数组的创建与读取"></a>1. 数组的创建与读取</h3><ul>
+<li><strong>创建</strong><blockquote>
+<p>数组的创建方式有好几种，主要有以下这种：</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [];<span class="comment">//定义空数组</span></div><div class="line"><span class="keyword">var</span> arr = [<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>];<span class="comment">//定义字符串数组</span></div><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>();<span class="comment">//定义空数组</span></div><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);<span class="comment">//定义字符串数组</span></div><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="number">3</span>);<span class="comment">//定义一个长度为3的空数组</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>读取</strong><blockquote>
+<p>数组的读取比较简单，直接在数组后加上索引就可以读出了</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);</div><div class="line"><span class="built_in">console</span>.log(arr[<span class="number">1</span>]);</div></pre></td></tr></table></figure>
+<p><img src="http://on225liw3.bkt.clouddn.com/read.png" alt="数组读取的图片"></p>
+<p><strong>思考下：</strong></p>
+<blockquote>
+<ol>
+<li>如果定义了长度为3的数组，读第四个会怎样？</li>
+<li>如果将数组的长度为3变为10，中间的是否可读？值为什么？长度length为多少？</li>
+</ol>
+</blockquote>
+<h3 id="2-检测数组"><a href="#2-检测数组" class="headerlink" title="2. 检测数组"></a>2. 检测数组</h3><blockquote>
+<p>检测对象是不是数组的方法主要有以下两种：</p>
+</blockquote>
+<ol>
+<li><strong>instanceof</strong></li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);</div><div class="line"><span class="keyword">if</span>(arr <span class="keyword">instanceof</span> <span class="built_in">Array</span>)&#123; </div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'This is an Array!'</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="http://on225liw3.bkt.clouddn.com/isArr1.png" alt="数组判断图片1"></p>
+<blockquote>
+<p><strong>注：</strong>对于一个全局作用域而言这个很好用，但是网页中包含多个框架或者两个以上不同的全局执行环境就不适用了。</p>
+</blockquote>
+<ol>
+<li><strong>isArray()</strong></li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);</div><div class="line"><span class="keyword">if</span>(<span class="built_in">Array</span>.isArray(arr))&#123; </div><div class="line">  	<span class="built_in">console</span>.log(<span class="string">'This is an Array!'</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="http://on225liw3.bkt.clouddn.com/isArr2.png" alt="数组判断图片2"></p>
+<blockquote>
+<p><strong>注：</strong>Array.isArray()是ECMAScript5新增的，而且不管是在哪个全局环境中创建。但是只有IE9+、Firefox 4+、Safari 5+、Opera 10.5+和Chrome。</p>
+</blockquote>
+<p><strong>所以，那怎么判断又是在全局作用域而且还是不支持isArray()方法的网页中的数组的判断呢？</strong></p>
+<blockquote>
+<p>还是直接上代码吧^^</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isArray</span>(<span class="params">value</span>) </span>&#123;</div><div class="line">	<span class="keyword">return</span> <span class="built_in">Object</span>.prototype.toString.call(value) == <span class="string">"[object Array]"</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>这里的原理就是通过调用Object原生的toString()方法来返回类似[object NativeConstructorName]格式的字符串。可以打印下Object.prototype来感受下其结构。同理，该思路可以测试某值是不是原生的函数([object Function])或者正则表达式([object RegExp])等等。</p>
+</blockquote>
+<p><img src="http://on225liw3.bkt.clouddn.com/isArr3.png" alt="数组判断图片3"></p>
+<hr>
+<h3 id="3-转换方法"><a href="#3-转换方法" class="headerlink" title="3. 转换方法"></a>3. 转换方法</h3><blockquote>
+<p>转换方法主要是由数组到字符串的转化，主要有以下几种方法：toLocaleString()、toString()、valueOf()和join()等。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);</div><div class="line"><span class="built_in">console</span>.log(arr);</div><div class="line"><span class="built_in">console</span>.log(arr.toString());</div><div class="line"><span class="built_in">console</span>.log(arr.valueOf());</div><div class="line"><span class="built_in">console</span>.log(arr.toLocaleString());</div><div class="line">alert(arr);</div></pre></td></tr></table></figure>
+<p><img src="http://on225liw3.bkt.clouddn.com/tramsform.png" alt="转换结果1"></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"arr:"</span>+arr);</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"arr.toString():"</span>+arr.toString());</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"arr.valueOf():"</span>+arr.valueOf());</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"arr.toLocaleString():"</span>+arr.toLocaleString());</div><div class="line">alert(arr);</div></pre></td></tr></table></figure>
+<p><img src="http://on225liw3.bkt.clouddn.com/tramsform2.png" alt="转换结果2"></p>
+<blockquote>
+<p>哈哈，看到这两的结果是不是很奇怪？其实alert数组的时候会在后台调用toString方法。他们返回的都是一个以逗号分隔的字符串。那以特定字符串分隔数组的办法有么？</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);</div><div class="line"><span class="built_in">console</span>.log(arr.join(<span class="string">"-"</span>));</div><div class="line"><span class="built_in">console</span>.log(arr.join(<span class="string">"="</span>));</div></pre></td></tr></table></figure>
+<p><img src="http://on225liw3.bkt.clouddn.com/tramsform3.png" alt="转换结果3"></p>
+<blockquote>
+<p>那么问题来了,如果数组中的值是null或者undefined，在join()、toLocaleString()、toString()和valueOf()方法返回的结果又是怎样的呢？</p>
+</blockquote>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://on225liw3.bkt.clouddn.com/tramsform4.png" alt="转换结果3"></h2><h3 id="4-栈方法"><a href="#4-栈方法" class="headerlink" title="4. 栈方法"></a>4. 栈方法</h3><blockquote>
+<p>栈是一种LIFO（Last-In-First-Out，后入先出）的数据结构ECMAScript为数组专门提供了push()和pop()方法。因此他们只会发生在栈的顶部。具体的运用如下：</p>
+</blockquote>
+<ul>
+<li><strong>push()</strong><blockquote>
+<p>W3C:向数组的末尾添加一个或更多元素，并返回新的长度。</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>);
+<span class="built_in">console</span>.log(arr);
+<span class="comment">// 在栈顶push两项</span>
+<span class="keyword">var</span> ret = arr.push(<span class="string">"simon"</span>,<span class="string">"edward"</span>);
+<span class="built_in">console</span>.log(ret);
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/push.png" alt="push结果"></p>
+<blockquote>
+<p>结构很明显了，push的结果是返回<strong>数组的长度</strong>。</p>
+</blockquote>
+<ul>
+<li><strong>pop()</strong><blockquote>
+<p>W3C:删除并返回数组的最后一个元素。</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>);
+<span class="built_in">console</span>.log(arr);
+<span class="comment">// 在栈顶取出一项</span>
+<span class="keyword">var</span> ret = arr.pop();
+<span class="built_in">console</span>.log(ret);
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/push.png" alt="pop结果"></p>
+<blockquote>
+<p>结构很明显了，pop的结果是返回<strong>被取出的那个数组</strong>。<br>来个小问题：如何取出栈顶的两项或者多项呢？^^(据小博主了解，好像pop是没有传参数的，那可以基于pop直接封装一个函数，传入array和要删除的项数做参数的方法，直接返回处理后的数组^^)</p>
+</blockquote>
+<hr>
+<h3 id="5-队列方法"><a href="#5-队列方法" class="headerlink" title="5. 队列方法"></a>5. 队列方法</h3><blockquote>
+<p>队列数据结构的访问规则是FIFO(First-In-First-Out,先进先出)，有两个主要的方法，shift()heunshift(),具体的用法结合push和pop可以实现对队列的操作。具体如下：</p>
+</blockquote>
+<ul>
+<li><strong>shift()</strong><blockquote>
+<p>W3C:删除并返回数组的第一个元素。</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>);
+<span class="built_in">console</span>.log(arr);
+<span class="comment">// 在队列取出一项</span>
+<span class="keyword">var</span> ret = arr.shift();
+<span class="built_in">console</span>.log(ret);
+<span class="comment">// 原队列会变短</span>
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/shift.png" alt="shift结果"></p>
+<ul>
+<li><strong>unshift()</strong><blockquote>
+<p>W3C:向数组的开头添加一个或更多元素，并返回新的长度。</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>);
+<span class="built_in">console</span>.log(arr);
+<span class="comment">// 在队头插入一项</span>
+<span class="keyword">var</span> ret = arr.unshift(<span class="string">"simon"</span>);
+<span class="built_in">console</span>.log(ret);
+<span class="comment">// 原队列会变长</span>
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<h2 id="-1"><a href="#-1" class="headerlink" title=""></a><img src="http://on225liw3.bkt.clouddn.com/unshift.png" alt="shift结果"></h2><h3 id="6-重排序方法"><a href="#6-重排序方法" class="headerlink" title="6. 重排序方法"></a>6. 重排序方法</h3><blockquote>
+<p>数组中已经存在两个可以直接用来重排序的方法：reverse()和sort()。具体的用法如下：</p>
+</blockquote>
+<ul>
+<li><strong>reverse()</strong><blockquote>
+<p>W3C:颠倒数组中元素的顺序。<br><strong>注释</strong>：该方法会改变原来的数组，而不会创建新的数组。</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"1"</span>,<span class="string">"2"</span>,<span class="string">"3"</span>);
+<span class="built_in">console</span>.log(arr);
+<span class="comment">// 结束操作后的结果</span>
+<span class="keyword">var</span> ret = arr.reverse();
+<span class="built_in">console</span>.log(ret);
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/reverse.png" alt="reverse结果"></p>
+<ul>
+<li><strong>sort()</strong><blockquote>
+<p>W3C:对数组的元素进行排序,不生成副本。<br><br><strong>注释</strong>：该方法会改变原来的数组，而不会创建新的数组。</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"1"</span>,<span class="string">"2"</span>,<span class="string">"3"</span>,<span class="string">"13"</span>,<span class="string">"30"</span>);
+<span class="built_in">console</span>.log(arr.sort());
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/sort1.png" alt="sort结果"></p>
+<blockquote>
+<p>如果调用该方法时没有使用参数，将按字母顺序对数组中的元素进行排序，说得更精确点，是按照字符编码的顺序进行排序。要实现这一点，首先应把数组的元素都转换成字符串（toString），以便进行比较。如果想按照其他标准进行排序，就需要提供比较函数(作为参数，通过返回一个小于、大于或者等于零的值来影响排序结果)。例如如下：</p>
+</blockquote>
+<pre><code class="javascript">
+<span class="function"><span class="keyword">function</span> <span class="title">compare</span>(<span class="params">value1, value2</span>)</span>{
+    <span class="keyword">if</span> (value1 &gt; value2) {
+        <span class="keyword">return</span> <span class="number">1</span>;
+    }<span class="keyword">else</span> <span class="keyword">if</span>(value1 &lt; value2){
+        <span class="keyword">return</span> <span class="number">-1</span>;
+    }<span class="keyword">else</span>{
+        <span class="keyword">return</span> <span class="number">0</span>;
+    }
+}
+<span class="comment">// 简写</span>
+<span class="function"><span class="keyword">function</span> <span class="title">compare</span>(<span class="params">value1, value2</span>) </span>{
+    <span class="keyword">return</span> value1 - value2;
+}
+<span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">15</span>,<span class="number">25</span>);
+<span class="built_in">console</span>.log(arr.sort());
+<span class="built_in">console</span>.log(arr.sort(compare));
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/sort2.png" alt="sort2结果"></p>
+<hr>
+<h3 id="7-操作方法"><a href="#7-操作方法" class="headerlink" title="7. 操作方法"></a>7. 操作方法</h3><blockquote>
+<p>操作方法主要有两个：concat()和slice();</p>
+</blockquote>
+<ul>
+<li><strong>concat()</strong><blockquote>
+<p>W3C:concat() 方法用于连接两个或多个数组。该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);
+<span class="comment">// 可以传入字符串或者数组,生成新的数组，不影响原来的数组</span>
+<span class="built_in">console</span>.log(arr.concat(<span class="string">"alice"</span>,[<span class="string">"zhou"</span>,<span class="string">"lee"</span>]));
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/concat.png" alt="concat结果"></p>
+<ul>
+<li><strong>slice()</strong><blockquote>
+<p>W3C:concat() 方法用于从已有的数组中返回选定的元素。arrayObject.slice(start,end)；<br>start:必需。规定从何处开始选取。如果是负数，那么它规定从数组尾部开始算起的位置。也就是说，-1 指最后一个元素，-2 指倒数第二个元素，以此类推。<br>end:可选。规定从何处结束选取。该参数是数组片断结束处的数组下标。如果没有指定该参数，那么切分的数组包含从 start 到数组结束的所有元素。如果这个参数是负数，那么它规定的是从数组尾部开始算起的元素。</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);
+<span class="built_in">console</span>.log(arr.slice(<span class="number">1</span>));
+<span class="built_in">console</span>.log(arr);
+<span class="built_in">console</span>.log(arr.splice(<span class="number">0</span>,<span class="number">2</span>));
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/splice.png" alt="splice结果"></p>
+<ul>
+<li><strong>splice()</strong><blockquote>
+<p>W3C:splice() 方法向/从数组中添加/删除项目，然后返回被删除的项目。</p>
+</blockquote>
+</li>
+</ul>
+<ol>
+<li>删除</li>
+</ol>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);
+<span class="comment">// 删除第一项</span>
+<span class="keyword">var</span> removed = arr.splice(<span class="number">0</span>,<span class="number">1</span>);
+<span class="built_in">console</span>.log(removed);
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/splice_del.png" alt="aplice_del结果"></p>
+<ol>
+<li>插入</li>
+</ol>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);
+<span class="comment">// 插入二项项，参数：起始位置、0（要删除的项数）和要插入的数据</span>
+<span class="keyword">var</span> removed = arr.splice(<span class="number">1</span>,<span class="number">0</span>,<span class="string">"ken"</span>,<span class="string">"lee"</span>);
+<span class="comment">// 返回空数组</span>
+<span class="built_in">console</span>.log(removed);
+<span class="comment">// 返回插入后的数组</span>
+<span class="built_in">console</span>.log(arr);
+<span class="comment">// 插入数组会怎样？试试咯</span>
+<span class="keyword">var</span> removed2 = arr.splice(<span class="number">1</span>,<span class="number">0</span>,[<span class="string">"ken"</span>,<span class="string">"lee"</span>]);
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/splice_insert.png" alt="结果"></p>
+<ol>
+<li>替换</li>
+</ol>
+<pre><code class="javascript"><span class="keyword">var</span> arr = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"jack"</span>,<span class="string">"alice"</span>,<span class="string">"simon"</span>);
+<span class="comment">// 删除的思想起始就是插入那的第二个参数，参数：起始位置、要删除的项数和要插入的项</span>
+<span class="keyword">var</span> removed = arr.splice(<span class="number">1</span>,<span class="number">1</span>,<span class="string">"ken"</span>,<span class="string">"lee"</span>);
+<span class="comment">// 返回删除的字符串</span>
+<span class="built_in">console</span>.log(removed);
+<span class="comment">// 返回插入后的数组</span>
+<span class="built_in">console</span>.log(arr);
+</code></pre>
+<p><img src="http://on225liw3.bkt.clouddn.com/splice_del_insert.png" alt="concat结果"></p>
+<hr>
+<h3 id="8-位置方法"><a href="#8-位置方法" class="headerlink" title="8. 位置方法"></a>8. 位置方法</h3><hr>
+<h3 id="9-迭代方法"><a href="#9-迭代方法" class="headerlink" title="9. 迭代方法"></a>9. 迭代方法</h3><hr>
+<h3 id="10-缩小方法"><a href="#10-缩小方法" class="headerlink" title="10. 缩小方法"></a>10. 缩小方法</h3>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">《JS高设第三版》</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/03/18/Array类型/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-用css样式实现瀑布流效果-columns-的运" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/18/用css样式实现瀑布流效果-columns-的运/">用css样式实现瀑布流效果-columns 的运)</a>
+    </h1>
+  
+
+        
+        <a href="/2017/03/18/用css样式实现瀑布流效果-columns-的运/" class="archive-article-date">
+  	<time datetime="2017-03-18T07:47:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-18</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="用css样式实现瀑布流效果"><a href="#用css样式实现瀑布流效果" class="headerlink" title="用css样式实现瀑布流效果"></a>用css样式实现瀑布流效果</h1><blockquote>
+<p>主要是CSS3 中的多列columns属性的运用</p>
+</blockquote>
+<h2 id="W3C中的columns"><a href="#W3C中的columns" class="headerlink" title="W3C中的columns"></a>W3C中的columns</h2><ul>
+<li><strong>浏览器支持</strong></li>
+</ul>
+<blockquote>
+<p>Internet Explorer 10 和 Opera 支持 column 属性。<br>Firefox 支持替代的 -moz-column 属性。<br>Safari 和 Chrome 支持替代的 -webkit-column 属性。</p>
+</blockquote>
+<p><strong>注释：</strong>Internet Explorer 9 以及更早版本的浏览器不支持 column 属性。</p>
+<ul>
+<li><strong>CSS3 创建多列</strong></li>
+</ul>
+<p>column-count 属性规定元素应该被分隔的列数：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">div&#123;</div><div class="line">//创建三列</div><div class="line">   column-count:3;</div><div class="line">   -moz-column-count:3; 	/* Firefox */</div><div class="line">   -webkit-column-count:3; /* Safari 和 Chrome */</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><strong>CSS3 规定列之间的间隔</strong></li>
+</ul>
+<p>column-gap 属性规定列之间的间隔：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">   div&#123;</div><div class="line">//规定列之间 40 像素的间隔：</div><div class="line">   -moz-column-gap:40px;		/* Firefox */</div><div class="line">   -webkit-column-gap:40px;	/* Safari 和 Chrome */</div><div class="line">   column-gap:40px;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><strong>CSS3 列规则</strong></li>
+</ul>
+<p>column-rule 属性设置列之间的宽度、样式和颜色规则。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">   div&#123;</div><div class="line">//规定列之间的宽度、样式和颜色规则：</div><div class="line">   -moz-column-rule:3px outset #ff0000;	/* Firefox */</div><div class="line">   -webkit-column-rule:3px outset #ff0000;	/* Safari and Chrome */</div><div class="line">   column-rule:3px outset #ff0000;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><strong>新的多列属性</strong></li>
+</ul>
+<p><table style="border-collapse: collapse;border: 1px solid #aaa;"></table></p>
+<p><tbody><tr></tr></tbody></p>
+<p><th style="width:25%;">属性</th></p>
+<p><th>描述</th></p>
+<p><th style="width:5%;">CSS</th><br></p>
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-count.asp" title="CSS3 column-count 属性" target="_blank" rel="external">column-count</a></td><br><td>规定元素应该被分隔的列数。</td><br><td>3</td><br></tr>
+
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-fill.asp" title="CSS3 column-fill 属性" target="_blank" rel="external">column-fill</a></td><br><td>规定如何填充列。</td><br><td>3</td><br></tr>
+
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-gap.asp" title="CSS3 column-gap 属性" target="_blank" rel="external">column-gap</a></td><br><td>规定列之间的间隔。</td><br><td>3</td><br></tr>
+
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-rule.asp" title="CSS3 column-rule 属性" target="_blank" rel="external">column-rule</a></td><br><td>设置所有 column-rule-* 属性的简写属性。</td><br><td>3</td><br></tr>
+
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-rule-color.asp" title="CSS3 column-rule-color 属性" target="_blank" rel="external">column-rule-color</a></td><br><td>规定列之间规则的颜色。</td><br><td>3</td><br></tr>
+
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-rule-style.asp" title="CSS3 column-rule-style 属性" target="_blank" rel="external">column-rule-style</a></td><br><td>规定列之间规则的样式。</td><br><td>3</td><br></tr>
+
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-rule-width.asp" title="CSS3 column-rule-width 属性" target="_blank" rel="external">column-rule-width</a></td><br><td>规定列之间规则的宽度。</td><br><td>3</td><br></tr>
+
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-span.asp" title="CSS3 column-span 属性" target="_blank" rel="external">column-span</a></td><br><td>规定元素应该横跨的列数。</td><br><td>3</td><br></tr>
+
+<tr><br><td><a href="http://www.w3school.com.cn//cssref/pr_column-width.asp" title="CSS3 column-width 属性" target="_blank" rel="external">column-width</a></td><br><td>规定列的宽度。</td><br><td>3</td><br></tr>
+
+<p><tr></tr></p>
+<p><td><a href="http://www.w3school.com.cn//cssref/pr_columns.asp" title="CSS3 columns 属性" target="_blank" rel="external">columns</a></td></p>
+<p><td>规定设置 column-width 和 column-count 的简写属性。</td></p>
+<p><td>3</td><br><br><br><br><br><br><br><a href="https://www.jianghuasheng.cn/example/waterfall.html" target="_blank" rel="external">点击查看在线案例</a></p>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/03/18/用css样式实现瀑布流效果-columns-的运/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/17/hello-world/">Hello World</a>
+    </h1>
+  
+
+        
+        <a href="/2017/03/17/hello-world/" class="archive-article-date">
+  	<time datetime="2017-03-16T16:04:22.517Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-17</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="欢迎来到我的博客！很高兴开了这个博客，希望大家多多支持，多多交流。"><a href="#欢迎来到我的博客！很高兴开了这个博客，希望大家多多支持，多多交流。" class="headerlink" title="欢迎来到我的博客！很高兴开了这个博客，希望大家多多支持，多多交流。"></a>欢迎来到我的博客！很高兴开了这个博客，希望大家多多支持，多多交流。</h2><center style="color:#000000;font-size:18px;text-weight:bold;"><p>Hello，大家好！我叫江华生.喜欢编程!</p><p>喜欢前端技术、php和java，喜欢的一起交流下。</p><p>一个不愿只做技术精湛的程序猿</p> <p>To make the world a little differences！</p></center>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">生活杂谈</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/03/17/hello-world/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+  
+  
+
+
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left" style="color:#000;">
+    		&copy; 2017 江华生
+    	</div>
+    	<div class="footer-right">
+    		<a href="http://www.miitbeian.gov.cn/" target="_bank" style="color:#000;">粤ICP备17031079号-1</a>
+    	</div>
+      	
+    </div>
+  </div>
+</footer>
+    </div>
+    <script>
+	var yiliaConfig = {
+		mathjax: true,
+		isHome: true,
+		isPost: false,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false,
+		root: "/",
+		innerArchive: true,
+		showTags: false
+	}
+</script>
+
+<script>!function(t){function n(r){if(e[r])return e[r].exports;var o=e[r]={exports:{},id:r,loaded:!1};return t[r].call(o.exports,o,o.exports,n),o.loaded=!0,o.exports}var e={};return n.m=t,n.c=e,n.p="./",n(0)}([function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}function o(t,n){var e=/\/|index.html/g;return t.replace(e,"")===n.replace(e,"")}function i(){for(var t=document.querySelectorAll(".js-header-menu li a"),n=window.location.pathname,e=0,r=t.length;e<r;e++){var i=t[e];o(n,i.getAttribute("href"))&&(0,d.default)(i,"active")}}function u(t){for(var n=t.offsetLeft,e=t.offsetParent;null!==e;)n+=e.offsetLeft,e=e.offsetParent;return n}function f(t){for(var n=t.offsetTop,e=t.offsetParent;null!==e;)n+=e.offsetTop,e=e.offsetParent;return n}function c(t,n,e,r,o){var i=u(t),c=f(t)-n;if(c-e<=o){var a=t.$newDom;a||(a=t.cloneNode(!0),(0,h.default)(t,a),t.$newDom=a,a.style.position="fixed",a.style.top=(e||c)+"px",a.style.left=i+"px",a.style.zIndex=r||2,a.style.width="100%",a.style.color="#fff"),a.style.visibility="visible",t.style.visibility="hidden"}else{t.style.visibility="visible";var s=t.$newDom;s&&(s.style.visibility="hidden")}}function a(){var t=document.querySelector(".js-overlay"),n=document.querySelector(".js-header-menu");c(t,document.body.scrollTop,-63,2,0),c(n,document.body.scrollTop,1,3,0)}function s(){document.querySelector("#container").addEventListener("scroll",function(t){a()}),window.addEventListener("scroll",function(t){a()}),a()}function l(){x.default.versions.mobile&&window.screen.width<800&&(i(),s())}var p=e(71),d=r(p),v=e(72),y=(r(v),e(84)),h=r(y),b=e(69),x=r(b),m=e(75),g=r(m),w=e(70);l(),(0,w.addLoadEvent)(function(){g.default.init()}),t.exports={}},function(t,n){var e=t.exports="undefined"!=typeof window&&window.Math==Math?window:"undefined"!=typeof self&&self.Math==Math?self:Function("return this")();"number"==typeof __g&&(__g=e)},function(t,n){var e={}.hasOwnProperty;t.exports=function(t,n){return e.call(t,n)}},function(t,n,e){var r=e(49),o=e(15);t.exports=function(t){return r(o(t))}},function(t,n,e){t.exports=!e(8)(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a})},function(t,n,e){var r=e(6),o=e(12);t.exports=e(4)?function(t,n,e){return r.f(t,n,o(1,e))}:function(t,n,e){return t[n]=e,t}},function(t,n,e){var r=e(10),o=e(30),i=e(24),u=Object.defineProperty;n.f=e(4)?Object.defineProperty:function(t,n,e){if(r(t),n=i(n,!0),r(e),o)try{return u(t,n,e)}catch(t){}if("get"in e||"set"in e)throw TypeError("Accessors not supported!");return"value"in e&&(t[n]=e.value),t}},function(t,n,e){var r=e(22)("wks"),o=e(13),i=e(1).Symbol,u="function"==typeof i,f=t.exports=function(t){return r[t]||(r[t]=u&&i[t]||(u?i:o)("Symbol."+t))};f.store=r},function(t,n){t.exports=function(t){try{return!!t()}catch(t){return!0}}},function(t,n,e){var r=e(35),o=e(16);t.exports=Object.keys||function(t){return r(t,o)}},function(t,n,e){var r=e(11);t.exports=function(t){if(!r(t))throw TypeError(t+" is not an object!");return t}},function(t,n){t.exports=function(t){return"object"==typeof t?null!==t:"function"==typeof t}},function(t,n){t.exports=function(t,n){return{enumerable:!(1&t),configurable:!(2&t),writable:!(4&t),value:n}}},function(t,n){var e=0,r=Math.random();t.exports=function(t){return"Symbol(".concat(void 0===t?"":t,")_",(++e+r).toString(36))}},function(t,n){var e=t.exports={version:"2.4.0"};"number"==typeof __e&&(__e=e)},function(t,n){t.exports=function(t){if(void 0==t)throw TypeError("Can't call method on  "+t);return t}},function(t,n){t.exports="constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf".split(",")},function(t,n){t.exports={}},function(t,n){t.exports=!0},function(t,n){n.f={}.propertyIsEnumerable},function(t,n,e){var r=e(6).f,o=e(2),i=e(7)("toStringTag");t.exports=function(t,n,e){t&&!o(t=e?t:t.prototype,i)&&r(t,i,{configurable:!0,value:n})}},function(t,n,e){var r=e(22)("keys"),o=e(13);t.exports=function(t){return r[t]||(r[t]=o(t))}},function(t,n,e){var r=e(1),o="__core-js_shared__",i=r[o]||(r[o]={});t.exports=function(t){return i[t]||(i[t]={})}},function(t,n){var e=Math.ceil,r=Math.floor;t.exports=function(t){return isNaN(t=+t)?0:(t>0?r:e)(t)}},function(t,n,e){var r=e(11);t.exports=function(t,n){if(!r(t))return t;var e,o;if(n&&"function"==typeof(e=t.toString)&&!r(o=e.call(t)))return o;if("function"==typeof(e=t.valueOf)&&!r(o=e.call(t)))return o;if(!n&&"function"==typeof(e=t.toString)&&!r(o=e.call(t)))return o;throw TypeError("Can't convert object to primitive value")}},function(t,n,e){var r=e(1),o=e(14),i=e(18),u=e(26),f=e(6).f;t.exports=function(t){var n=o.Symbol||(o.Symbol=i?{}:r.Symbol||{});"_"==t.charAt(0)||t in n||f(n,t,{value:u.f(t)})}},function(t,n,e){n.f=e(7)},function(t,n,e){var r=e(1),o=e(14),i=e(46),u=e(5),f="prototype",c=function(t,n,e){var a,s,l,p=t&c.F,d=t&c.G,v=t&c.S,y=t&c.P,h=t&c.B,b=t&c.W,x=d?o:o[n]||(o[n]={}),m=x[f],g=d?r:v?r[n]:(r[n]||{})[f];d&&(e=n);for(a in e)s=!p&&g&&void 0!==g[a],s&&a in x||(l=s?g[a]:e[a],x[a]=d&&"function"!=typeof g[a]?e[a]:h&&s?i(l,r):b&&g[a]==l?function(t){var n=function(n,e,r){if(this instanceof t){switch(arguments.length){case 0:return new t;case 1:return new t(n);case 2:return new t(n,e)}return new t(n,e,r)}return t.apply(this,arguments)};return n[f]=t[f],n}(l):y&&"function"==typeof l?i(Function.call,l):l,y&&((x.virtual||(x.virtual={}))[a]=l,t&c.R&&m&&!m[a]&&u(m,a,l)))};c.F=1,c.G=2,c.S=4,c.P=8,c.B=16,c.W=32,c.U=64,c.R=128,t.exports=c},function(t,n){var e={}.toString;t.exports=function(t){return e.call(t).slice(8,-1)}},function(t,n,e){var r=e(11),o=e(1).document,i=r(o)&&r(o.createElement);t.exports=function(t){return i?o.createElement(t):{}}},function(t,n,e){t.exports=!e(4)&&!e(8)(function(){return 7!=Object.defineProperty(e(29)("div"),"a",{get:function(){return 7}}).a})},function(t,n,e){"use strict";var r=e(18),o=e(27),i=e(36),u=e(5),f=e(2),c=e(17),a=e(51),s=e(20),l=e(58),p=e(7)("iterator"),d=!([].keys&&"next"in[].keys()),v="@@iterator",y="keys",h="values",b=function(){return this};t.exports=function(t,n,e,x,m,g,w){a(e,n,x);var O,S,_,j=function(t){if(!d&&t in A)return A[t];switch(t){case y:return function(){return new e(this,t)};case h:return function(){return new e(this,t)}}return function(){return new e(this,t)}},P=n+" Iterator",E=m==h,M=!1,A=t.prototype,T=A[p]||A[v]||m&&A[m],L=T||j(m),N=m?E?j("entries"):L:void 0,C="Array"==n?A.entries||T:T;if(C&&(_=l(C.call(new t)),_!==Object.prototype&&(s(_,P,!0),r||f(_,p)||u(_,p,b))),E&&T&&T.name!==h&&(M=!0,L=function(){return T.call(this)}),r&&!w||!d&&!M&&A[p]||u(A,p,L),c[n]=L,c[P]=b,m)if(O={values:E?L:j(h),keys:g?L:j(y),entries:N},w)for(S in O)S in A||i(A,S,O[S]);else o(o.P+o.F*(d||M),n,O);return O}},function(t,n,e){var r=e(10),o=e(55),i=e(16),u=e(21)("IE_PROTO"),f=function(){},c="prototype",a=function(){var t,n=e(29)("iframe"),r=i.length,o="<",u=">";for(n.style.display="none",e(48).appendChild(n),n.src="javascript:",t=n.contentWindow.document,t.open(),t.write(o+"script"+u+"document.F=Object"+o+"/script"+u),t.close(),a=t.F;r--;)delete a[c][i[r]];return a()};t.exports=Object.create||function(t,n){var e;return null!==t?(f[c]=r(t),e=new f,f[c]=null,e[u]=t):e=a(),void 0===n?e:o(e,n)}},function(t,n,e){var r=e(35),o=e(16).concat("length","prototype");n.f=Object.getOwnPropertyNames||function(t){return r(t,o)}},function(t,n){n.f=Object.getOwnPropertySymbols},function(t,n,e){var r=e(2),o=e(3),i=e(45)(!1),u=e(21)("IE_PROTO");t.exports=function(t,n){var e,f=o(t),c=0,a=[];for(e in f)e!=u&&r(f,e)&&a.push(e);for(;n.length>c;)r(f,e=n[c++])&&(~i(a,e)||a.push(e));return a}},function(t,n,e){t.exports=e(5)},function(t,n,e){var r=e(15);t.exports=function(t){return Object(r(t))}},function(t,n,e){t.exports={default:e(41),__esModule:!0}},function(t,n,e){t.exports={default:e(42),__esModule:!0}},function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}n.__esModule=!0;var o=e(39),i=r(o),u=e(38),f=r(u),c="function"==typeof f.default&&"symbol"==typeof i.default?function(t){return typeof t}:function(t){return t&&"function"==typeof f.default&&t.constructor===f.default&&t!==f.default.prototype?"symbol":typeof t};n.default="function"==typeof f.default&&"symbol"===c(i.default)?function(t){return"undefined"==typeof t?"undefined":c(t)}:function(t){return t&&"function"==typeof f.default&&t.constructor===f.default&&t!==f.default.prototype?"symbol":"undefined"==typeof t?"undefined":c(t)}},function(t,n,e){e(65),e(63),e(66),e(67),t.exports=e(14).Symbol},function(t,n,e){e(64),e(68),t.exports=e(26).f("iterator")},function(t,n){t.exports=function(t){if("function"!=typeof t)throw TypeError(t+" is not a function!");return t}},function(t,n){t.exports=function(){}},function(t,n,e){var r=e(3),o=e(61),i=e(60);t.exports=function(t){return function(n,e,u){var f,c=r(n),a=o(c.length),s=i(u,a);if(t&&e!=e){for(;a>s;)if(f=c[s++],f!=f)return!0}else for(;a>s;s++)if((t||s in c)&&c[s]===e)return t||s||0;return!t&&-1}}},function(t,n,e){var r=e(43);t.exports=function(t,n,e){if(r(t),void 0===n)return t;switch(e){case 1:return function(e){return t.call(n,e)};case 2:return function(e,r){return t.call(n,e,r)};case 3:return function(e,r,o){return t.call(n,e,r,o)}}return function(){return t.apply(n,arguments)}}},function(t,n,e){var r=e(9),o=e(34),i=e(19);t.exports=function(t){var n=r(t),e=o.f;if(e)for(var u,f=e(t),c=i.f,a=0;f.length>a;)c.call(t,u=f[a++])&&n.push(u);return n}},function(t,n,e){t.exports=e(1).document&&document.documentElement},function(t,n,e){var r=e(28);t.exports=Object("z").propertyIsEnumerable(0)?Object:function(t){return"String"==r(t)?t.split(""):Object(t)}},function(t,n,e){var r=e(28);t.exports=Array.isArray||function(t){return"Array"==r(t)}},function(t,n,e){"use strict";var r=e(32),o=e(12),i=e(20),u={};e(5)(u,e(7)("iterator"),function(){return this}),t.exports=function(t,n,e){t.prototype=r(u,{next:o(1,e)}),i(t,n+" Iterator")}},function(t,n){t.exports=function(t,n){return{value:n,done:!!t}}},function(t,n,e){var r=e(9),o=e(3);t.exports=function(t,n){for(var e,i=o(t),u=r(i),f=u.length,c=0;f>c;)if(i[e=u[c++]]===n)return e}},function(t,n,e){var r=e(13)("meta"),o=e(11),i=e(2),u=e(6).f,f=0,c=Object.isExtensible||function(){return!0},a=!e(8)(function(){return c(Object.preventExtensions({}))}),s=function(t){u(t,r,{value:{i:"O"+ ++f,w:{}}})},l=function(t,n){if(!o(t))return"symbol"==typeof t?t:("string"==typeof t?"S":"P")+t;if(!i(t,r)){if(!c(t))return"F";if(!n)return"E";s(t)}return t[r].i},p=function(t,n){if(!i(t,r)){if(!c(t))return!0;if(!n)return!1;s(t)}return t[r].w},d=function(t){return a&&v.NEED&&c(t)&&!i(t,r)&&s(t),t},v=t.exports={KEY:r,NEED:!1,fastKey:l,getWeak:p,onFreeze:d}},function(t,n,e){var r=e(6),o=e(10),i=e(9);t.exports=e(4)?Object.defineProperties:function(t,n){o(t);for(var e,u=i(n),f=u.length,c=0;f>c;)r.f(t,e=u[c++],n[e]);return t}},function(t,n,e){var r=e(19),o=e(12),i=e(3),u=e(24),f=e(2),c=e(30),a=Object.getOwnPropertyDescriptor;n.f=e(4)?a:function(t,n){if(t=i(t),n=u(n,!0),c)try{return a(t,n)}catch(t){}if(f(t,n))return o(!r.f.call(t,n),t[n])}},function(t,n,e){var r=e(3),o=e(33).f,i={}.toString,u="object"==typeof window&&window&&Object.getOwnPropertyNames?Object.getOwnPropertyNames(window):[],f=function(t){try{return o(t)}catch(t){return u.slice()}};t.exports.f=function(t){return u&&"[object Window]"==i.call(t)?f(t):o(r(t))}},function(t,n,e){var r=e(2),o=e(37),i=e(21)("IE_PROTO"),u=Object.prototype;t.exports=Object.getPrototypeOf||function(t){return t=o(t),r(t,i)?t[i]:"function"==typeof t.constructor&&t instanceof t.constructor?t.constructor.prototype:t instanceof Object?u:null}},function(t,n,e){var r=e(23),o=e(15);t.exports=function(t){return function(n,e){var i,u,f=String(o(n)),c=r(e),a=f.length;return c<0||c>=a?t?"":void 0:(i=f.charCodeAt(c),i<55296||i>56319||c+1===a||(u=f.charCodeAt(c+1))<56320||u>57343?t?f.charAt(c):i:t?f.slice(c,c+2):(i-55296<<10)+(u-56320)+65536)}}},function(t,n,e){var r=e(23),o=Math.max,i=Math.min;t.exports=function(t,n){return t=r(t),t<0?o(t+n,0):i(t,n)}},function(t,n,e){var r=e(23),o=Math.min;t.exports=function(t){return t>0?o(r(t),9007199254740991):0}},function(t,n,e){"use strict";var r=e(44),o=e(52),i=e(17),u=e(3);t.exports=e(31)(Array,"Array",function(t,n){this._t=u(t),this._i=0,this._k=n},function(){var t=this._t,n=this._k,e=this._i++;return!t||e>=t.length?(this._t=void 0,o(1)):"keys"==n?o(0,e):"values"==n?o(0,t[e]):o(0,[e,t[e]])},"values"),i.Arguments=i.Array,r("keys"),r("values"),r("entries")},function(t,n){},function(t,n,e){"use strict";var r=e(59)(!0);e(31)(String,"String",function(t){this._t=String(t),this._i=0},function(){var t,n=this._t,e=this._i;return e>=n.length?{value:void 0,done:!0}:(t=r(n,e),this._i+=t.length,{value:t,done:!1})})},function(t,n,e){"use strict";var r=e(1),o=e(2),i=e(4),u=e(27),f=e(36),c=e(54).KEY,a=e(8),s=e(22),l=e(20),p=e(13),d=e(7),v=e(26),y=e(25),h=e(53),b=e(47),x=e(50),m=e(10),g=e(3),w=e(24),O=e(12),S=e(32),_=e(57),j=e(56),P=e(6),E=e(9),M=j.f,A=P.f,T=_.f,L=r.Symbol,N=r.JSON,C=N&&N.stringify,k="prototype",F=d("_hidden"),q=d("toPrimitive"),I={}.propertyIsEnumerable,B=s("symbol-registry"),D=s("symbols"),W=s("op-symbols"),H=Object[k],K="function"==typeof L,R=r.QObject,J=!R||!R[k]||!R[k].findChild,U=i&&a(function(){return 7!=S(A({},"a",{get:function(){return A(this,"a",{value:7}).a}})).a})?function(t,n,e){var r=M(H,n);r&&delete H[n],A(t,n,e),r&&t!==H&&A(H,n,r)}:A,G=function(t){var n=D[t]=S(L[k]);return n._k=t,n},$=K&&"symbol"==typeof L.iterator?function(t){return"symbol"==typeof t}:function(t){return t instanceof L},z=function(t,n,e){return t===H&&z(W,n,e),m(t),n=w(n,!0),m(e),o(D,n)?(e.enumerable?(o(t,F)&&t[F][n]&&(t[F][n]=!1),e=S(e,{enumerable:O(0,!1)})):(o(t,F)||A(t,F,O(1,{})),t[F][n]=!0),U(t,n,e)):A(t,n,e)},Y=function(t,n){m(t);for(var e,r=b(n=g(n)),o=0,i=r.length;i>o;)z(t,e=r[o++],n[e]);return t},Q=function(t,n){return void 0===n?S(t):Y(S(t),n)},X=function(t){var n=I.call(this,t=w(t,!0));return!(this===H&&o(D,t)&&!o(W,t))&&(!(n||!o(this,t)||!o(D,t)||o(this,F)&&this[F][t])||n)},V=function(t,n){if(t=g(t),n=w(n,!0),t!==H||!o(D,n)||o(W,n)){var e=M(t,n);return!e||!o(D,n)||o(t,F)&&t[F][n]||(e.enumerable=!0),e}},Z=function(t){for(var n,e=T(g(t)),r=[],i=0;e.length>i;)o(D,n=e[i++])||n==F||n==c||r.push(n);return r},tt=function(t){for(var n,e=t===H,r=T(e?W:g(t)),i=[],u=0;r.length>u;)!o(D,n=r[u++])||e&&!o(H,n)||i.push(D[n]);return i};K||(L=function(){if(this instanceof L)throw TypeError("Symbol is not a constructor!");var t=p(arguments.length>0?arguments[0]:void 0),n=function(e){this===H&&n.call(W,e),o(this,F)&&o(this[F],t)&&(this[F][t]=!1),U(this,t,O(1,e))};return i&&J&&U(H,t,{configurable:!0,set:n}),G(t)},f(L[k],"toString",function(){return this._k}),j.f=V,P.f=z,e(33).f=_.f=Z,e(19).f=X,e(34).f=tt,i&&!e(18)&&f(H,"propertyIsEnumerable",X,!0),v.f=function(t){return G(d(t))}),u(u.G+u.W+u.F*!K,{Symbol:L});for(var nt="hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables".split(","),et=0;nt.length>et;)d(nt[et++]);for(var nt=E(d.store),et=0;nt.length>et;)y(nt[et++]);u(u.S+u.F*!K,"Symbol",{for:function(t){return o(B,t+="")?B[t]:B[t]=L(t)},keyFor:function(t){if($(t))return h(B,t);throw TypeError(t+" is not a symbol!")},useSetter:function(){J=!0},useSimple:function(){J=!1}}),u(u.S+u.F*!K,"Object",{create:Q,defineProperty:z,defineProperties:Y,getOwnPropertyDescriptor:V,getOwnPropertyNames:Z,getOwnPropertySymbols:tt}),N&&u(u.S+u.F*(!K||a(function(){var t=L();return"[null]"!=C([t])||"{}"!=C({a:t})||"{}"!=C(Object(t))})),"JSON",{stringify:function(t){if(void 0!==t&&!$(t)){for(var n,e,r=[t],o=1;arguments.length>o;)r.push(arguments[o++]);return n=r[1],"function"==typeof n&&(e=n),!e&&x(n)||(n=function(t,n){if(e&&(n=e.call(this,t,n)),!$(n))return n}),r[1]=n,C.apply(N,r)}}}),L[k][q]||e(5)(L[k],q,L[k].valueOf),l(L,"Symbol"),l(Math,"Math",!0),l(r.JSON,"JSON",!0)},function(t,n,e){e(25)("asyncIterator")},function(t,n,e){e(25)("observable")},function(t,n,e){e(62);for(var r=e(1),o=e(5),i=e(17),u=e(7)("toStringTag"),f=["NodeList","DOMTokenList","MediaList","StyleSheetList","CSSRuleList"],c=0;c<5;c++){var a=f[c],s=r[a],l=s&&s.prototype;l&&!l[u]&&o(l,u,a),i[a]=i.Array}},function(t,n){"use strict";var e={versions:function(){var t=window.navigator.userAgent;return{trident:t.indexOf("Trident")>-1,presto:t.indexOf("Presto")>-1,webKit:t.indexOf("AppleWebKit")>-1,gecko:t.indexOf("Gecko")>-1&&t.indexOf("KHTML")==-1,mobile:!!t.match(/AppleWebKit.*Mobile.*/),ios:!!t.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),android:t.indexOf("Android")>-1||t.indexOf("Linux")>-1,iPhone:t.indexOf("iPhone")>-1||t.indexOf("Mac")>-1,iPad:t.indexOf("iPad")>-1,webApp:t.indexOf("Safari")==-1,weixin:t.indexOf("MicroMessenger")==-1}}()};t.exports=e},function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}var o=e(40),i=r(o),u=function(){function t(t,n,e){return n||e?String.fromCharCode(n||e):o[t]||t}function n(t){return l[t]}var e=/&quot;|&lt;|&gt;|&amp;|&nbsp;|&apos;|&#(\d+);|&#(\d+)/g,r=/['<> "&]/g,o={"&quot;":'"',"&lt;":"<","&gt;":">","&amp;":"&","&nbsp;":" "},f=/\u00a0/g,c=/<br\s*\/?>/gi,a=/\r?\n/g,s=/\s/g,l={};for(var p in o)l[o[p]]=p;return o["&apos;"]="'",l["'"]="&#39;",{encode:function(t){return t?(""+t).replace(r,n).replace(a,"<br/>").replace(s,"&nbsp;"):""},decode:function(n){return n?(""+n).replace(c,"\n").replace(e,t).replace(f," "):""},encodeBase16:function(t){if(!t)return t;t+="";for(var n=[],e=0,r=t.length;r>e;e++)n.push(t.charCodeAt(e).toString(16).toUpperCase());return n.join("")},encodeBase16forJSON:function(t){if(!t)return t;t=t.replace(/[\u4E00-\u9FBF]/gi,function(t){return escape(t).replace("%u","\\u")});for(var n=[],e=0,r=t.length;r>e;e++)n.push(t.charCodeAt(e).toString(16).toUpperCase());return n.join("")},decodeBase16:function(t){if(!t)return t;t+="";for(var n=[],e=0,r=t.length;r>e;e+=2)n.push(String.fromCharCode("0x"+t.slice(e,e+2)));return n.join("")},encodeObject:function(t){if(t instanceof Array)for(var n=0,e=t.length;e>n;n++)t[n]=u.encodeObject(t[n]);else if("object"==("undefined"==typeof t?"undefined":(0,i.default)(t)))for(var r in t)t[r]=u.encodeObject(t[r]);else if("string"==typeof t)return u.encode(t);return t},loadScript:function(t){var n=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(n),n.setAttribute("src",t)},addLoadEvent:function(t){var n=window.onload;"function"!=typeof window.onload?window.onload=t:window.onload=function(){n(),t()}}}}();t.exports=u},function(t,n){function e(t,n){t.classList?t.classList.add(n):t.className+=" "+n}t.exports=e},function(t,n){function e(t,n){if(t.classList)t.classList.remove(n);else{var e=new RegExp("(^|\\b)"+n.split(" ").join("|")+"(\\b|$)","gi");t.className=t.className.replace(e," ")}}t.exports=e},,,function(t,n){"use strict";function e(){var t=document.querySelector("#page-nav");if(t&&!document.querySelector("#page-nav .extend.prev")&&(t.innerHTML='<a class="extend prev disabled" rel="prev">&laquo; Prev</a>'+t.innerHTML),t&&!document.querySelector("#page-nav .extend.next")&&(t.innerHTML=t.innerHTML+'<a class="extend next disabled" rel="next">Next &raquo;</a>'),yiliaConfig&&yiliaConfig.open_in_new){var n=document.querySelectorAll(".article-entry a:not(.article-more-a)");n.forEach(function(t){t.setAttribute("target","_blank")})}var e=document.querySelector("#js-aboutme");e&&0!==e.length&&(e.innerHTML=e.innerText)}t.exports={init:e}},,,,,,,,,function(t,n){function e(t,n){if("string"==typeof n)return t.insertAdjacentHTML("afterend",n);var e=t.nextSibling;return e?t.parentNode.insertBefore(n,e):t.parentNode.appendChild(n)}t.exports=e}])</script><script src="/./main.2d7529.js"></script><script>!function(){var e=function(e){var t=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(t),t.setAttribute("src",e)};e("/slider.885efe.js")}()</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+    
+<div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
+  <div class="tools-nav header-menu">
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+
+    <ul style="width: 70%">
+    
+    
+      
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      
+        
+      
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      
+        
+    </ul>
+  </div>
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all" q-show="innerArchive">
+        <div class="search-wrap">
+          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
+          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
+          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
+        </div>
+        <div class="widget tagcloud search-tag">
+          <p class="search-tag-wording">tag:</p>
+          <label class="search-switch">
+            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
+          </label>
+          <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">《JS高设第三版》</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">面试心得</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">生活杂谈</a>
+              </li>
+            
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="search-ul">
+          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
+            缺失模块。<br/>1、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
+            2、在根目录_config.yml里添加配置：
+<pre style="font-size: 12px;" q-show="jsonFail">
+  jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+</pre>
+          </p>
+          <li class="search-li" q-repeat="items" q-show="isShow">
+            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title" style="color:#000000"></span></a>
+            <p class="search-time">
+              <i class="icon-calendar icon"></i>
+              <span q-text="date|dateformat"></span>
+            </p>
+            <p class="search-tag">
+              <i class="icon-price-tags icon"></i>
+              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
+            </p>
+          </li>
+        </ul>
+    	</section>
+    
+
+    
+
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;center style=&#39;color:#000000;&#39;&gt;&lt;p&gt;Hello，大家好！我叫江华生.喜欢编程!&lt;/p&gt;&lt;p&gt;喜欢前端技术、php和java，喜欢的一起交流下。&lt;/p&gt;&lt;p&gt;一个不愿只做技术精湛的程序猿&lt;/p&gt; &lt;p&gt;To make the world a little differences！&lt;/p&gt;&lt;/center&gt;</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+  </div>
+</body>
+</html>
